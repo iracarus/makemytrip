@@ -28,13 +28,22 @@ public class TestBase {
 
     public static void initialize()
     {
-        String osPart;
-        if(OS.contains("mac"))
+        String osPart, exePart;
+        if(OS.contains("mac")) {
             osPart = "MAC";
+            exePart = "";
+        }
         else
+        {
             osPart = "WIN";
+            exePart = ".exe";
+        }
 
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + File.separator + "BrowserDrivers" +File.separator+osPart+ File.separator + "chromedriver");
+
+        if(props.getProperty("browser").equalsIgnoreCase("chrome"))
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + File.separator + "BrowserDrivers" +File.separator+osPart+ File.separator + "chromedriver" + exePart);
+        else
+            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + File.separator + "BrowserDrivers" +File.separator+osPart+ File.separator + "geckodriver" + exePart);
 
         String browserName = props.getProperty("browser");
 
