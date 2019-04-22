@@ -4,6 +4,7 @@
     <test name="MakeMyTripChallenge">
         <classes>
             <class name="com.mmt.tests.HomePageTests"/>
+            <class name="com.mmt.tests.SearchPageTests"/>
         </classes>
     </test> <!-- MakeMyTripChallenge -->
 </suite> <!-- MakeMyTripChallenge -->

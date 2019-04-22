@@ -7,6 +7,8 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.mmt.pages.HomePage;
+import com.mmt.pages.SearchPage;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -90,6 +92,16 @@ public class TestBase {
 
         driver.get(props.getProperty("url"));
     }
+
+
+    @BeforeMethod
+    public void setup()
+    {
+        TestBase.initialize();
+        homePage = new HomePage();
+        searchPage = new SearchPage();
+    }
+
 
     public void tearDown()
     {
