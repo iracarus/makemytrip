@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MakeMyTripChallenge" duration-ms="22204" started-at="2019-04-22T12:22:11 IST" finished-at="2019-04-22T12:22:33 IST">
+    <groups>
+    </groups>
+    <test name="MakeMyTripChallenge" duration-ms="22204" started-at="2019-04-22T12:22:11 IST" finished-at="2019-04-22T12:22:33 IST">
+      <class name="com.mmt.tests.HomePageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mmt.tests.HomePageTests@19713e5]" name="setup" is-config="true" duration-ms="21036" started-at="2019-04-22T12:22:11 IST" finished-at="2019-04-22T12:22:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyFlightsActive()[pri:0, instance:com.mmt.tests.HomePageTests@19713e5]" name="verifyFlightsActive" duration-ms="1" started-at="2019-04-22T12:22:32 IST" finished-at="2019-04-22T12:22:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightsActive -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:com.mmt.tests.HomePageTests@19713e5]" name="verifyTitle" duration-ms="43" started-at="2019-04-22T12:22:32 IST" finished-at="2019-04-22T12:22:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.mmt.tests.HomePageTests@19713e5]" name="end" is-config="true" duration-ms="1089" started-at="2019-04-22T12:22:32 IST" finished-at="2019-04-22T12:22:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.mmt.tests.HomePageTests -->
+    </test> <!-- MakeMyTripChallenge -->
+  </suite> <!-- MakeMyTripChallenge -->
+</testng-results>
