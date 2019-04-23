@@ -66,7 +66,46 @@ public class SearchPageTests extends TestBase {
         searchPage.resetStopsFilter();
     }
 
-    @Test
+
+    @Test(priority = 5)
+    public void printFlightCountsNew()
+    {
+        Date currentDate = new Date();
+        Date returnDate = DateUtils.addDays(currentDate, 7);
+        homePage.selectSection("Flights");
+        homePage.waitForSearchButton();
+        homePage.selectRoundTripOption();
+        homePage.selectFromCity("Mumbai");
+        homePage.selectToCity("Patna");
+        homePage.selectDepartureDate(DateUtils.addDays(currentDate, 1));
+        homePage.selectReturnDate(returnDate);
+        homePage.clickSearchButton();
+
+        searchPage.resetStopsFilter();
+        BrowserUtils.ScrollDown();
+        logger4j.info("Without Filter - departure flights options : " + searchPage.getDepartureFlightCounts());
+        logger4j.info("Without Filter - return flights options : " + searchPage.getReturnFlightCounts());
+        BrowserUtils.scrollToTop();
+        searchPage.resetStopsFilter();
+
+        searchPage.resetStopsFilter();
+        searchPage.selectNonStop();
+        BrowserUtils.ScrollDown();
+        logger4j.info("Non Stop Filter - departure flights options : " + searchPage.getDepartureFlightCounts());
+        logger4j.info("Non Stop Filter - return flights options : " + searchPage.getReturnFlightCounts());
+        BrowserUtils.scrollToTop();
+        searchPage.resetStopsFilter();
+
+        searchPage.resetStopsFilter();
+        searchPage.selectSingleStop();
+        BrowserUtils.ScrollDown();
+        logger4j.info("1 Stop Filter - departure flights options : " + searchPage.getDepartureFlightCounts());
+        logger4j.info("1 Stop Filter - return flights options : " + searchPage.getReturnFlightCounts());
+        BrowserUtils.scrollToTop();
+        searchPage.resetStopsFilter();
+    }
+
+    @Test(priority = 4)
     public void verifyTotalAmount()
     {
         Date currentDate = new Date();
@@ -80,12 +119,12 @@ public class SearchPageTests extends TestBase {
         homePage.selectReturnDate(returnDate);
         homePage.clickSearchButton();
 
-        searchPage.resetStopsFilter();
+        //searchPage.resetStopsFilter();
         BrowserUtils.ScrollDown();
         searchPage.selectDepartureFlight(5);
         System.out.println("here 1");
 
-        searchPage.resetStopsFilter();
+        //searchPage.resetStopsFilter();
         BrowserUtils.ScrollDown();
         System.out.println("here 2");
         searchPage.selectDepartureFlight(2);
@@ -95,6 +134,6 @@ public class SearchPageTests extends TestBase {
     @AfterMethod
     public void end()
     {
-        //tearDown();
+        tearDown();
     }
 }

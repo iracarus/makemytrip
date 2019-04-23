@@ -45,6 +45,7 @@ public class BrowserUtils extends TestBase {
     }
     public static void waitAndClick(WebElement element)
     {
+
         scrollToElement(element);
         WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
         wait.until(ExpectedConditions.elementToBeClickable(element));
@@ -54,7 +55,6 @@ public class BrowserUtils extends TestBase {
     public static void moveToAndClick(WebElement element)
     {
         Actions actions = new Actions(driver);
-
         actions.moveToElement(element).click().perform();
     }
 
@@ -63,7 +63,7 @@ public class BrowserUtils extends TestBase {
 
         scrollToElement(element);
         WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+        //wait.until(ExpectedConditions.elementToBeClickable(element));
         ((JavascriptExecutor)driver).executeScript("arguments[0].click();", element);
     }
 
