@@ -1,6 +1,8 @@
 package com.mmt.pages;
 
 import com.mmt.base.TestBase;
+import com.mmt.utils.BrowserUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
@@ -18,7 +20,7 @@ public class SearchPage extends TestBase {
     WebElement nonStopCheckBox;
 
     @FindBy(xpath = "//label[@for='filter_stop1']//span[@class='box']")
-    WebElement singleStop;
+    WebElement singleStopCheckBox;
 
     @FindBy(xpath = "//div[@id='ow_domrt-jrny']")
     WebElement departureFlightsSection;
@@ -36,25 +38,24 @@ public class SearchPage extends TestBase {
     {
         PageFactory.initElements(driver, this);
     }
+
     public void resetStopsFilter() {
-        WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
-        wait.until(ExpectedConditions.elementToBeClickable(stopsReset));
-        stopsReset.click();
+        BrowserUtils.waitAndClick(stopsReset);
     }
 
     public void selectNonStop()
     {
-        WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
-        wait.until(ExpectedConditions.visibilityOf(nonStopCheckBox));
-        nonStopCheckBox.click();
+        BrowserUtils.waitAndClick(nonStopCheckBox);
     }
 
     public void selectSingleStop()
     {
-        WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
-        wait.until(ExpectedConditions.visibilityOf(singleStop));
-        singleStop.click();
+        BrowserUtils.waitAndClick(singleStopCheckBox);
     }
+
+    public List<WebElement> getDepartureFlightsList() { return departureFlightOptions; }
+
+    public List<WebElement> getReturnFlightsList() { return returnFlightOptions; }
 
     public int getDepartureFlightCounts() {
         return departureFlightOptions.size();
@@ -66,5 +67,26 @@ public class SearchPage extends TestBase {
 
     public boolean isAt() {
         return (departureFlightsSection.isDisplayed() && returnflightsSection.isDisplayed());
+    }
+
+    public int selectDepartureFlight(int searchResultIndex)
+    {
+        int flightsCount = departureFlightOptions.size();
+        int resultIndex = -1;
+        for(int i =0; i<flightsCount; i++)
+        {
+            if(i==searchResultIndex-1) {
+                boolean radioStatus = departureFlightOptions.get(i).findElement(By.xpath("./input")).isSelected();
+                //WebElement radioBtnElement = departureFlightOptions.get(i).findElement(By.xpath(".//span[contains(@class,'splitVw-inner')]"));
+                if(searchResultIndex!=1)
+                {
+                    BrowserUtils.scrollToElement(departureFlightOptions.get(i-1));
+                }
+                BrowserUtils.jsClick(departureFlightOptions.get(i));
+                resultIndex = i;
+                break;
+            }
+        }
+        return resultIndex;
     }
 }

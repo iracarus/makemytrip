@@ -2,6 +2,10 @@ package com.mmt.utils;
 
 import com.mmt.base.TestBase;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BrowserUtils extends TestBase {
     public static void scrollToTop() {
@@ -29,4 +33,38 @@ public class BrowserUtils extends TestBase {
             e.printStackTrace();
         }
     }
+
+    public static void scrollToElement(WebElement element)
+    {
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    public static void waitAndClick(WebElement element)
+    {
+        scrollToElement(element);
+        WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        element.click();
+    }
+
+    public static void moveToAndClick(WebElement element)
+    {
+        Actions actions = new Actions(driver);
+
+        actions.moveToElement(element).click().perform();
+    }
+
+    public static void jsClick(WebElement element)
+    {
+
+        scrollToElement(element);
+        WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        ((JavascriptExecutor)driver).executeScript("arguments[0].click();", element);
+    }
+
 }

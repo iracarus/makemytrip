@@ -94,15 +94,6 @@ public class TestBase {
     }
 
 
-    @BeforeMethod
-    public void setup()
-    {
-        TestBase.initialize();
-        homePage = new HomePage();
-        searchPage = new SearchPage();
-    }
-
-
     public void tearDown()
     {
         driver.quit();
