@@ -9,11 +9,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.util.Date;
 import java.util.List;
 
 public class HomePage extends TestBase {
+    SearchPage searchPage;
+
     @FindBy(xpath="//nav/ul/li")
     WebElement headerOptions;
 
@@ -36,7 +39,9 @@ public class HomePage extends TestBase {
     List<WebElement> toCitySuggestions;
 
     public HomePage() {
+
         PageFactory.initElements(driver, this);
+        searchPage = new SearchPage();
     }
 
     /**
@@ -168,5 +173,21 @@ public class HomePage extends TestBase {
 
     public void clickSearchButton() {
         searchButton.click();
+    }
+
+    public boolean performSearch(String tripType, String departureCity, String arrivalCity, Date depDate, Date retDate)
+    {
+        Date currentDate = new Date();
+        Date returnDate = DateUtils.addDays(currentDate, 7);
+        selectSection("Flights");
+        waitForSearchButton();
+        selectRoundTripOption();
+        selectFromCity("Mumbai");
+        selectToCity("Chennai");
+        selectDepartureDate(DateUtils.addDays(currentDate, 1));
+        selectReturnDate(returnDate);
+        clickSearchButton();
+
+        return searchPage.isAt();
     }
 }

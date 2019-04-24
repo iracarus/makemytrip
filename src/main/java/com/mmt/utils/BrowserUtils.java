@@ -9,10 +9,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BrowserUtils extends TestBase {
     public static void scrollToTop() {
-        JavascriptExecutor js = (JavascriptExecutor)driver;
+        try {
+            JavascriptExecutor js = (JavascriptExecutor)driver;
 
-        //This will scroll the web page till end.
-        js.executeScript("window.scrollTo(0, 0);");
+            //This will scroll the web page till end.
+            js.executeScript("window.scrollTo(0, -document.body.scrollHeight);");
+            Thread.sleep(2000);
+
+            js.executeScript("window.scrollTo(0, -250);");
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public static void ScrollDown() {

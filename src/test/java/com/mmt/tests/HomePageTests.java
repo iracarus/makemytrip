@@ -25,7 +25,7 @@ public class HomePageTests extends TestBase {
         searchPage = new SearchPage();
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, enabled = false)
     public void verifyTitle()
     {
         String title = TestBase.driver.getTitle();
@@ -34,7 +34,7 @@ public class HomePageTests extends TestBase {
     }
 
 
-    @Test(priority = 2)
+    @Test(priority = 2, enabled = false)
     public void searchFlights() {
         Date currentDate = new Date();
         Date returnDate = DateUtils.addDays(currentDate, 7);

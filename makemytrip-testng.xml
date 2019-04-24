@@ -2,9 +2,30 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="MakeMyTripChallenge">
     <test name="MakeMyTripChallenge">
+        <parameter name="stopType" value=""/>
         <classes>
             <class name="com.mmt.tests.HomePageTests"/>
             <class name="com.mmt.tests.SearchPageTests"/>
         </classes>
     </test> <!-- MakeMyTripChallenge -->
+    <test name="MakeMyTripChallenge1">
+        <parameter name="stopType" value="nonstop"/>
+        <classes>
+            <class name="com.mmt.tests.HomePageTests"/>
+            <class name="com.mmt.tests.SearchPageTests"/>
+        </classes>
+    </test>
+    <test name="MakeMyTripChallenge2">
+        <parameter name="stopType" value="singlestop"/>
+        <classes>
+            <class name="com.mmt.tests.HomePageTests"/>
+            <class name="com.mmt.tests.SearchPageTests"/>
+        </classes>
+    </test>
+    <test name="MakeMyTripChallenge3">
+        <parameter name="stopType" value=""/>
+        <classes>
+            <class name="com.mmt.tests.SearchPageTestsRandom"/>
+        </classes>
+    </test>
 </suite> <!-- MakeMyTripChallenge -->
