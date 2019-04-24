@@ -1,31 +1,17 @@
 package com.mmt.base;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
-import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.mmt.pages.HomePage;
-import com.mmt.pages.SearchPage;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import com.mmt.utils.DateUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -49,7 +35,10 @@ public class TestBase {
         }
     }
 
-
+    /**
+     * Initializes all the basic components like driver, properties file etc
+     * Takes care of the operating system to load relevant drivers/files
+     */
     public static void initialize()
     {
         ChromeOptions options = new ChromeOptions();
@@ -93,9 +82,21 @@ public class TestBase {
         driver.get(props.getProperty("url"));
     }
 
-
+    /**
+     * Quits the driver to close the browser
+     */
     public void tearDown()
     {
         driver.quit();
+    }
+
+
+    /**
+     * This is data provider that drives the tests
+     * @return Returns a Object[][] object
+     */
+    @DataProvider(name="PerformSearch")
+    public static Object[][] searchOptions() {
+        return new Object[][]  {{"RoundTrip", "Delhi", "Bangalore", new Date(), DateUtils.addDays(new Date(), 7)}};
     }
 }

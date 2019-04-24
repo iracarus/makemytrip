@@ -1,6 +1,7 @@
 package com.mmt.pages;
 
 import com.mmt.base.TestBase;
+import com.mmt.utils.BrowserUtils;
 import com.mmt.utils.DateUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -9,7 +10,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 import java.util.Date;
 import java.util.List;
@@ -32,14 +32,10 @@ public class HomePage extends TestBase {
     @FindBy(xpath = "//label[@for='toCity']")
     WebElement toCityElement;
 
-    @FindBy(xpath = "//p[contains(text(),', India')]/parent::div/parent::div")
-    WebElement toCitySuggestion;
-
     @FindAll(@FindBy(xpath="//ul[@class='react-autosuggest__suggestions-list']/li"))
     List<WebElement> toCitySuggestions;
 
     public HomePage() {
-
         PageFactory.initElements(driver, this);
         searchPage = new SearchPage();
     }
@@ -67,29 +63,33 @@ public class HomePage extends TestBase {
         waitForSearchButton();
     }
 
+    /**
+     * Wait for the search button to be available on the home page
+     */
     public void waitForSearchButton()
     {
         WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
         searchButton = wait.until(ExpectedConditions.visibilityOf(searchButton));
     }
 
+    /**
+     * Select the round trip option on home page
+     */
     public void selectRoundTripOption() {
         WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
         roundTripOption = wait.until(ExpectedConditions.elementToBeClickable(roundTripOption));
         roundTripOption.click();
     }
 
-    public void selectFromCity(String fromCity)
-    {
+    /**
+     * Select the Departure City
+     * @param fromCity
+     */
+    public void selectFromCity(String fromCity) throws InterruptedException {
         fromCityElement.click();
         WebElement editBox = driver.findElement(By.xpath("//input[@placeholder='From']"));
         editBox.sendKeys(fromCity);
-
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        Thread.sleep(5000);
 
         List<WebElement> fromCitySuggestions = driver.findElements(By.xpath("//ul[@class='react-autosuggest__suggestions-list']/li"));
         for (int i=0; i<fromCitySuggestions.size(); i++)
@@ -103,8 +103,11 @@ public class HomePage extends TestBase {
         }
     }
 
-    public void selectToCity(String toCity)
-    {
+    /**
+     * Select the Arrival City
+     * @param toCity
+     */
+    public void selectToCity(String toCity) throws InterruptedException {
         WebElement editBox = driver.findElement(By.xpath("//input[@placeholder='To']"));
         if(!editBox.isDisplayed())
         {
@@ -114,14 +117,8 @@ public class HomePage extends TestBase {
         }
 
         editBox.sendKeys(toCity);
+        Thread.sleep(5000);
 
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        //List<WebElement> toCitySuggestions = driver.findElements(By.xpath("//ul[@class='react-autosuggest__suggestions-list']/li"));
         for (int i=0; i<toCitySuggestions.size(); i++)
         {
             WebElement currentSuggestion = toCitySuggestions.get(i).findElement(By.xpath(".//p"));
@@ -133,6 +130,10 @@ public class HomePage extends TestBase {
         }
     }
 
+    /**
+     * Select the Departure Date
+     * @param departureDate
+     */
     public void selectDepartureDate(Date departureDate)
     {
         List<WebElement> currentMonthWeeks = driver.findElements(By.xpath("//div[@class='DayPicker-Month'][1]/div[@class='DayPicker-Body']/div"));
@@ -152,6 +153,10 @@ public class HomePage extends TestBase {
     }
 
 
+    /**
+     * Select the return date
+     * @param returnDate
+     */
     public void selectReturnDate(Date returnDate)
     {
         List<WebElement> currentMonthWeeks = driver.findElements(By.xpath("//div[@class='DayPicker-Month'][1]/div[@class='DayPicker-Body']/div"));
@@ -171,12 +176,14 @@ public class HomePage extends TestBase {
         }
     }
 
+    /**
+     * Click the search button after filling in the flight details
+     */
     public void clickSearchButton() {
-        searchButton.click();
+        BrowserUtils.jsClick(searchButton);
     }
 
-    public boolean performSearch(String tripType, String departureCity, String arrivalCity, Date depDate, Date retDate)
-    {
+    public boolean performSearch(String tripType, String departureCity, String arrivalCity, Date depDate, Date retDate) throws InterruptedException {
         Date currentDate = new Date();
         Date returnDate = DateUtils.addDays(currentDate, 7);
         selectSection("Flights");

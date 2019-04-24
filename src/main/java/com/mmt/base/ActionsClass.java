@@ -4,7 +4,6 @@ import com.mmt.pages.HomePage;
 import com.mmt.pages.SearchPage;
 import com.mmt.utils.DateUtils;
 
-import javax.swing.*;
 import java.util.Date;
 
 public class ActionsClass {
@@ -15,8 +14,8 @@ public class ActionsClass {
         homePage = new HomePage();
         searchPage = new SearchPage();
     }
-    public boolean performSearch(String tripType, String departureCity, String arrivalCity, Date depDate, Date retDate)
-    {
+
+    public boolean performSearch(String tripType, String departureCity, String arrivalCity, Date depDate, Date retDate) throws InterruptedException {
         Date currentDate = new Date();
         Date returnDate = DateUtils.addDays(currentDate, 7);
         homePage.selectSection("Flights");

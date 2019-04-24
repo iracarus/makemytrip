@@ -9,11 +9,72 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">MakeMyTripChallenge</th></tr>
-<tr><td><a href="#t0">MakeMyTripChallenge</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">22,204</td><td></td><td></td></tr>
+<tr><td><a href="#t0">MakeMyTripChallenge</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">32,252</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">MakeMyTripChallenge1</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">1</td><td class="num">192,984</td><td></td><td></td></tr>
+<tr><td><a href="#t2">MakeMyTripChallenge2</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">1</td><td class="num">142,593</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num attn">6</th><th class="num attn">2</th><th class="num">367,829</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MakeMyTripChallenge</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MakeMyTripChallenge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.mmt.tests.HomePageTests</td><td><a href="#m0">verifyFlightsActive</a></td><td rowspan="1">1555915952426</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m1">verifyTitle</a></td><td rowspan="1">1555915952432</td><td rowspan="1">43</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MakeMyTripChallenge</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MakeMyTripChallenge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.mmt.tests.HomePageTests</td><td><a href="#m0">searchFlights</a></td><td rowspan="1">1556125033589</td><td rowspan="1">23483</td></tr><tr class="passedeven"><td><a href="#m1">verifyTitle</a></td><td rowspan="1">1556125033573</td><td rowspan="1">16</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">MakeMyTripChallenge1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mmt.tests.SearchPageTests</td><td><a href="#m2">printFlightCounts</a></td><td rowspan="1">1556125233621</td><td rowspan="1">16465</td></tr><tr><th colspan="4">MakeMyTripChallenge1 &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">com.mmt.tests.SearchPageTests</td><td><a href="#m3">printFlightCounts</a></td><td rowspan="3">1556125158441</td><td rowspan="3">75180</td></tr><tr class="retriedeven"><td><a href="#m4">printFlightCounts</a></td></tr><tr class="retriedeven"><td><a href="#m5">printFlightCounts</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">MakeMyTripChallenge2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mmt.tests.SearchPageTestsRandom</td><td><a href="#m6">verifyTotalAmount</a></td><td rowspan="1">1556125376421</td><td rowspan="1">16303</td></tr><tr><th colspan="4">MakeMyTripChallenge2 &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">com.mmt.tests.SearchPageTestsRandom</td><td><a href="#m7">verifyTotalAmount</a></td><td rowspan="3">1556125259777</td><td rowspan="3">55398</td></tr><tr class="retriedeven"><td><a href="#m8">verifyTotalAmount</a></td></tr><tr class="retriedeven"><td><a href="#m9">verifyTotalAmount</a></td></tr></tbody>
 </table>
-<h2>MakeMyTripChallenge</h2><h3 id="m0">com.mmt.tests.HomePageTests#verifyFlightsActive</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MakeMyTripChallenge</h2><h3 id="m0">com.mmt.tests.HomePageTests#searchFlights</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>RoundTrip</td><td>Delhi</td><td>Bangalore</td><td>Wed Apr 24 22:27:13 IST 2019</td><td>Wed May 01 22:27:13 IST 2019</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.mmt.tests.HomePageTests#verifyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MakeMyTripChallenge1</h2><h3 id="m2">com.mmt.tests.SearchPageTests#printFlightCounts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>RoundTrip</td><td>Delhi</td><td>Bangalore</td><td>Wed Apr 24 22:30:33 IST 2019</td><td>Wed May 01 22:30:33 IST 2019</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 9a58a5d055c3924f34580c9d92dc6120
+*** Element info: {Using=xpath, value=./div[contains(@class, &apos;DayPicker-Day&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at com.mmt.pages.HomePage.selectDepartureDate(HomePage.java:142)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:26)
+	at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:32)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MakeMyTripChallenge2</h2><h3 id="m3">com.mmt.tests.SearchPageTestsRandom#verifyTotalAmount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>RoundTrip</td><td>Delhi</td><td>Bangalore</td><td>Wed Apr 24 22:32:56 IST 2019</td><td>Wed May 01 22:32:56 IST 2019</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 40251544115a9f8ba1b6d81254668112
+*** Element info: {Using=xpath, value=./div[contains(@class, &apos;DayPicker-Day&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at com.mmt.pages.HomePage.selectDepartureDate(HomePage.java:142)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:26)
+	at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:31)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

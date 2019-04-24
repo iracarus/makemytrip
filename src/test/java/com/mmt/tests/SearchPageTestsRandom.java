@@ -2,21 +2,19 @@ package com.mmt.tests;
 
 import com.mmt.base.ActionsClass;
 import com.mmt.base.TestBase;
-import com.mmt.pages.HomePage;
 import com.mmt.pages.SearchPage;
 import com.mmt.utils.BrowserUtils;
-import com.mmt.utils.OtherUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
-import java.sql.SQLOutput;
 import java.util.Date;
 
 public class SearchPageTestsRandom extends TestBase {
     private Logger logger4j= LogManager.getLogger(SearchPage.class);
-    private HomePage homePage;
     private SearchPage searchPage;
     private ActionsClass actionsClass;
 
@@ -24,15 +22,13 @@ public class SearchPageTestsRandom extends TestBase {
     public void setup()
     {
         TestBase.initialize();
-        homePage = new HomePage();
         searchPage = new SearchPage();
         actionsClass = new ActionsClass();
     }
 
-    @Test
-    public void verifyTotalAmount() {
-        String stopType = "";
-        actionsClass.performSearch("RoundTrip", "Delhi", "Bangalore", new Date(), new Date());
+    @Test(dataProvider = "PerformSearch")
+    public void verifyTotalAmount(String stopType, String departureCity, String arrivalCity, Date departureDate, Date returnDate) throws InterruptedException {
+        actionsClass.performSearch(stopType, departureCity, arrivalCity, departureDate, returnDate);
         searchPage.resetStopsFilter();
 
         switch (stopType)
@@ -53,24 +49,8 @@ public class SearchPageTestsRandom extends TestBase {
         int expTotalCost = searchPage.getDepartureFlightCost() + searchPage.getReturnFlightCost();
         int actualTotalCost = searchPage.getTotalCost();
 
-        logger4j.info("Expected : " + expTotalCost + ", Actual : " + actualTotalCost);
         Assert.assertEquals(actualTotalCost, expTotalCost);
-    }
-
-    @Test
-    public void test(){
-        String str1 = "Rs 8,824";
-        String str2 = "Rs 7,326";
-
-        String str3 = str1.replace("Rs ", "");
-        String str4 = str3.replace(",", "");
-
-        String str5 = str2.replace("Rs ", "");
-        String str6 = str5.replace(",", "");
-        int j = Integer.parseInt(str6);
-        int i = Integer.parseInt(str4);
-
-        System.out.println(i+j);
+        logger4j.info("Stop Type : "+ stopType +"Expected : " + expTotalCost + ", Actual : " + actualTotalCost);
     }
 
     @AfterTest

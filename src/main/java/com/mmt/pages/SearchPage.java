@@ -8,32 +8,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
 public class SearchPage extends TestBase {
     @FindBy(xpath = "//div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']")
     WebElement stopsReset;
-// | //div[@class='filter_subdivisions stops_info stops-dep']//a[text()='Reset'] | //div[@class='rows']//a[contains(text(), 'Reset All') and contains(@class, 'hidden')]/preceding-sibling::a | //div[@class='filter_subdivisions stops_info stops-dep']//a[text()='Reset'] | //div[@class='rows']//a[contains(text(), 'Reset All') and contains(@class, 'hidden')]/preceding-sibling::a
+
     @FindBy(xpath = "//div[@class='fli-intl-container clearfix']")
     WebElement filter;
 
     @FindBy(xpath = "//label[contains(@for,'filter_stop0')]//span[@class='box']/span")
     WebElement nonStopCheckBox;
 
-    @FindBy(xpath = "//a[@id='stops_0_dep']")
-    WebElement nonStopCheckBoxNew;
-
     @FindBy(xpath = "//label[contains(@for, 'filter_stop1')]//span[@class='box']/span")
     WebElement singleStopCheckBox;
-
-    @FindBy(xpath = "//a[@id='stops_1_dep']")
-    WebElement singleStopCheckBoxNew;
-
-    @FindBy(xpath = "//a[@id='stops_2_dep']")
-    WebElement multiStopCheckBoxNew;
 
     @FindBy(xpath = "//div[@id='ow_domrt-jrny']")
     WebElement departureFlightsSection;
@@ -53,22 +42,6 @@ public class SearchPage extends TestBase {
     @FindAll(@FindBy(xpath="//div[@class='row wrap-ret']/div[2]/div/div/div"))
     List<WebElement> returnFlightOptionsNew;
 
-    @FindBy(xpath = "//img[contains(@alt,'MMT') and contains(@alt, 'MMT')]")
-    WebElement logo;
-
-    @FindBy(xpath = "//a[@id='more_filters']")
-    WebElement moreFilters;
-
-
-    @FindBy(xpath = "//a[text()='Apply']")
-    WebElement apply;
-
-    @FindBy(xpath = "//span[text()='Stops']/following-sibling::a")
-    WebElement extendedReset;
-
-    @FindBy(xpath = "//div[@id='filter--wrapper']")
-    WebElement header;
-
     @FindBy(xpath =  "//div[contains(@class,'splitVw-footer-left')]//p[@class='actual-price']")
     WebElement priceDeparture;
 
@@ -78,99 +51,78 @@ public class SearchPage extends TestBase {
     @FindBy(xpath = "//span[@class='splitVw-total-fare']/span")
     WebElement priceTotal;
 
+    /**
+     * Constructor for Search Page objects
+     */
     public SearchPage()
     {
         PageFactory.initElements(driver, this);
     }
 
+    /**
+     * Resets the stop filter
+     */
     public void resetStopsFilter() {
         BrowserUtils.waitAndClick(stopsReset);
-//        Boolean isPresent = driver.findElements(By.xpath("//a[@id='stops_0_dep']")).size() > 0;
-//        if(isPresent)
-//        {
-//            if(nonStopCheckBoxNew.getAttribute("class").contains("active"))
-//            {
-//                nonStopCheckBoxNew.click();
-//            }
-//
-//            if(singleStopCheckBoxNew.getAttribute("class").contains("active"))
-//            {
-//                singleStopCheckBoxNew.click();
-//            }
-//
-//            if(multiStopCheckBoxNew.getAttribute("class").contains("active"))
-//            {
-//                multiStopCheckBoxNew.click();
-//            }
-//        }
-//        else
-//        {
-//            BrowserUtils.waitAndClick(stopsReset);
-//        }
-
     }
 
+    /**
+     * Select the Non Stop filter
+     */
     public void selectNonStop()
     {
-        //resetStopsFilter();
         BrowserUtils.moveToAndClick(nonStopCheckBox);
-//        if(driver.findElements(By.xpath("//a[@id='stops_0_dep']")).size() > 0 )
-//        {
-//            BrowserUtils.waitAndClick(nonStopCheckBoxNew);
-//        }
-//        else
-//        {
-//            BrowserUtils.waitAndClick(nonStopCheckBox);
-//        }
-
     }
 
+    /**
+     * Select the 1 Stop filter option
+     */
     public void selectSingleStop()
     {
-        //resetStopsFilter();
         BrowserUtils.moveToAndClick(singleStopCheckBox);
-//        if(driver.findElements(By.xpath("//a[@id='stops_1_dep']")).size() > 0 )
-//        {
-//            BrowserUtils.waitAndClick(singleStopCheckBoxNew);
-//        }
-//        else
-//        {
-//            BrowserUtils.waitAndClick(singleStopCheckBox);
-//        }
     }
 
+    /**
+     * Fetches the departure flights list as List<WebElement> ( currently it is not used )
+     * @return List<WebElement>
+     */
     public List<WebElement> getDepartureFlightsList() { return departureFlightOptions; }
 
+    /**
+     * Fetches the return flights list as List<WebElement> ( currently it is not used )
+     * @return List<WebElement>
+     */
     public List<WebElement> getReturnFlightsList() { return returnFlightOptions; }
 
+    /**
+     * Returns the count of flights available in Departure section after search
+     * @return int
+     */
     public int getDepartureFlightCounts() {
-        if(departureFlightOptions.size() == 0)
-        {
-            return departureFlightOptionsNew.size();
-        }
-        else
-        {
-            return departureFlightOptions.size();
-        }
-
+        return departureFlightOptions.size();
     }
 
+    /**
+     * Returns the count of flights available in Return section after search
+     * @return int
+     */
     public int getReturnFlightCounts() {
-        if(returnFlightOptions.size() == 0 )
-        {
-            return returnFlightOptionsNew.size();
-        }
-        else
-        {
-            return returnFlightOptions.size();
-        }
-
+        return returnFlightOptions.size();
     }
 
+    /**
+     * Check if the currently active page is the Search Page or not
+     * @return boolean
+     */
     public boolean isAt() {
         return (departureFlightsSection.isDisplayed() && returnflightsSection.isDisplayed());
     }
 
+    /**
+     * Selects the departure flight as per the passed parameter
+     * @param searchResultIndex
+     * @return int returns the flight index in the search or -1 in case no flight is found
+     */
     public int selectDepartureFlight(int searchResultIndex)
     {
         int flightsCount = departureFlightOptions.size();
@@ -178,8 +130,6 @@ public class SearchPage extends TestBase {
         for(int i =0; i<flightsCount; i++)
         {
             if(i==searchResultIndex-1) {
-                boolean radioStatus = departureFlightOptions.get(i).findElement(By.xpath("./input")).isSelected();
-                //WebElement radioBtnElement = departureFlightOptions.get(i).findElement(By.xpath(".//span[contains(@class,'splitVw-inner')]"));
                 if(searchResultIndex!=1)
                 {
                     BrowserUtils.scrollToElement(departureFlightOptions.get(i-1));
@@ -192,6 +142,11 @@ public class SearchPage extends TestBase {
         return resultIndex;
     }
 
+    /**
+     * Selects the return flight as per the passed parameter
+     * @param searchResultIndex
+     * @return int returns the flight index in the search or -1 in case no flight is found
+     */
     public int selectReturnFlight(int searchResultIndex)
     {
         int flightsCount = returnFlightOptions.size();
@@ -199,12 +154,8 @@ public class SearchPage extends TestBase {
         for(int i =0; i<flightsCount; i++)
         {
             if(i==searchResultIndex-1) {
-                boolean radioStatus = returnFlightOptions.get(i).findElement(By.xpath("./input")).isSelected();
-                //WebElement radioBtnElement = departureFlightOptions.get(i).findElement(By.xpath(".//span[contains(@class,'splitVw-inner')]"));
                 if(searchResultIndex!=1)
-                {
                     BrowserUtils.scrollToElement(returnFlightOptions.get(i-1));
-                }
                 BrowserUtils.jsClick(returnFlightOptions.get(i));
                 resultIndex = i;
                 break;
@@ -213,17 +164,28 @@ public class SearchPage extends TestBase {
         return resultIndex;
     }
 
+    /**
+     * Returns the Cost of the flight from the departure section on Search page
+     * @return int Cost of the flight as an Int
+     */
     public int getDepartureFlightCost()
     {
         return OtherUtils.getPrice(priceDeparture.getText());
     }
 
+    /**
+     * Returns the Cost of the flight from the return section on Search page
+     * @return int Cost of the flight as an int
+     */
     public int getReturnFlightCost()
     {
         return OtherUtils.getPrice(priceReturn.getText());
     }
 
-
+    /**
+     * Returns the Total Cost shown on the Search Page
+     * @return int Total Flight Cost ( Departure + Return )
+     */
     public int getTotalCost()
     {
         return OtherUtils.getPrice(priceTotal.getText());

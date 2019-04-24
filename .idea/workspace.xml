@@ -2,21 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e5569bc-868e-4d60-9f73-61d1c1d9ac77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmt/base/ActionsClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmt/utils/OtherUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTestsRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmt/listeners/MyTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmt/listeners/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmt/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/propertieslogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/propertieslogs.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makemytrip-testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/makemytrip-testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmt/base/ActionsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmt/base/ActionsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmt/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmt/base/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmt/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmt/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmt/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmt/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmt/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmt/utils/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mmt/tests/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mmt/tests/HomePageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTestsRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTestsRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmt/base/ActionsClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmt/base/ActionsClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmt/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmt/base/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmt/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmt/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmt/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmt/pages/SearchPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmt/utils/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmt/utils/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmt/tests/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mmt/tests/HomePageTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmt/tests/SearchPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mmt/tests/SearchPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmt/tests/SearchPageTestsRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mmt/tests/SearchPageTestsRandom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/MakeMyTripChallenge/MakeMyTripChallenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MakeMyTripChallenge/MakeMyTripChallenge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/MakeMyTripChallenge/MakeMyTripChallenge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/MakeMyTripChallenge/MakeMyTripChallenge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.mmt.tests.HomePageTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.mmt.tests.HomePageTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/MakeMyTripChallenge.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/MakeMyTripChallenge.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/MakeMyTripChallenge/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/HomePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="48" selection-end-column="45" />
+            <state>
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,13 +64,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/pages/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/logs/propertieslogs.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="190" column="25" selection-start-line="190" selection-start-column="25" selection-end-line="190" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -55,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/base/ActionsClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="108">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,37 +85,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="124" selection-end-column="5" />
-              <folding>
-                <element signature="e#4831#4832#0" expanded="true" />
-                <element signature="e#4857#4858#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTestsRandom.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2237#2238#0" expanded="true" />
-                <element signature="e#2263#2264#0" expanded="true" />
+                <element signature="e#2818#2819#0" expanded="true" />
+                <element signature="e#2844#2845#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/OtherUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTestsRandom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="56">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,17 +121,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makemytrip-testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+            <state relative-caret-position="360">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/base/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/DateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="319">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,29 +140,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/pages/SearchPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/ExcelUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="157" column="36" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="36" />
-              <folding>
-                <element signature="e#5107#5108#0" expanded="true" />
-                <element signature="e#5207#5208#0" expanded="true" />
-                <element signature="e#7233#7234#0" expanded="true" />
-                <element signature="e#7301#7302#0" expanded="true" />
-                <element signature="e#7342#7343#0" expanded="true" />
-                <element signature="e#7407#7408#0" expanded="true" />
-                <element signature="e#7555#7556#0" expanded="true" />
-                <element signature="e#7620#7621#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/BrowserUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1334">
-              <caret line="63" column="37" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="37" />
+            <state relative-caret-position="144">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,18 +191,22 @@
         <option value="$PROJECT_DIR$/src/test/java/com/mmt/tests/DateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmt/utils/DateUtils.java" />
         <option value="$PROJECT_DIR$/extent-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmt/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/environment.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmt/utils/BrowserUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mmt/tests/HomePageTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmt/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmt/base/ActionsClass.java" />
-        <option value="$PROJECT_DIR$/makemytrip-testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmt/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmt/utils/OtherUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmt/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmt/base/ActionsClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmt/Listeners/RetryAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmt/Listeners/MyTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmt/listeners/MyTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmt/utils/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmt/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmt/utils/BrowserUtils.java" />
+        <option value="$PROJECT_DIR$/makemytrip-testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTestsRandom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mmt/tests/HomePageTests.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmt/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTests.java" />
       </list>
     </option>
   </component>
@@ -218,8 +233,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="113" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -231,44 +247,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mmt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -276,50 +297,37 @@
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mmt" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mmt" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makemytripchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makemytripchallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MakeMyTripChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MakeMyTripChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,44 +351,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Java/MakeMyTripCode/MakeMyTripChallenge/makemytrip-testng.xml">
+  <component name="RunManager" selected="TestNG.SearchPageTests.printFlightCounts">
     <configuration name="C:/Java/MakeMyTripCode/MakeMyTripChallenge/makemytrip-testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MakeMyTripChallenge" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/makemytrip-testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchPageTestsRandom" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="makemytripchallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mmt.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="HomePageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MakeMyTripChallenge" />
       <option name="PACKAGE_NAME" value="com.mmt.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.mmt.tests.SearchPageTestsRandom" />
+      <option name="MAIN_CLASS_NAME" value="com.mmt.tests.HomePageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchPageTestsRandom.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="makemytripchallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mmt.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="HomePageTests.verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MakeMyTripChallenge" />
       <option name="PACKAGE_NAME" value="com.mmt.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.mmt.tests.SearchPageTestsRandom" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.mmt.tests.HomePageTests" />
+      <option name="METHOD_NAME" value="verifyTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -388,18 +393,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchPageTestsRandom.verifyTotalAmount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="makemytripchallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mmt.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SearchPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MakeMyTripChallenge" />
       <option name="PACKAGE_NAME" value="com.mmt.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.mmt.tests.SearchPageTestsRandom" />
-      <option name="METHOD_NAME" value="verifyTotalAmount" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.mmt.tests.SearchPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -420,18 +418,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.C:/Java/MakeMyTripCode/MakeMyTripChallenge/makemytrip-testng.xml" />
+      <item itemvalue="TestNG.HomePageTests.verifyTitle" />
+      <item itemvalue="TestNG.HomePageTests" />
+      <item itemvalue="TestNG.SearchPageTests" />
       <item itemvalue="TestNG.SearchPageTests.printFlightCounts" />
-      <item itemvalue="TestNG.SearchPageTestsRandom" />
-      <item itemvalue="TestNG.SearchPageTestsRandom.verifyTotalAmount" />
-      <item itemvalue="TestNG.SearchPageTestsRandom.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Java/MakeMyTripCode/MakeMyTripChallenge/makemytrip-testng.xml" />
-        <item itemvalue="TestNG.SearchPageTestsRandom.verifyTotalAmount" />
-        <item itemvalue="TestNG.SearchPageTestsRandom.test" />
-        <item itemvalue="TestNG.SearchPageTestsRandom" />
         <item itemvalue="TestNG.SearchPageTests.printFlightCounts" />
+        <item itemvalue="TestNG.SearchPageTests" />
+        <item itemvalue="TestNG.C:/Java/MakeMyTripCode/MakeMyTripChallenge/makemytrip-testng.xml" />
+        <item itemvalue="TestNG.HomePageTests" />
+        <item itemvalue="TestNG.HomePageTests.verifyTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -446,41 +444,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Java_MakeMyTripCode_MakeMyTripChallenge_makemytrip-testng_xml - 2019.04.24 at 00h 16m 25s.xml">
+    <history-entry file="HomePageTests - 2019.04.24 at 22h 01m 31s.xml">
+      <configuration name="HomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTests - 2019.04.24 at 22h 02m 40s.xml">
+      <configuration name="HomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTests - 2019.04.24 at 22h 06m 02s.xml">
+      <configuration name="HomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTests - 2019.04.24 at 22h 08m 10s.xml">
+      <configuration name="HomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTests - 2019.04.24 at 22h 09m 48s.xml">
+      <configuration name="HomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTests - 2019.04.24 at 22h 12m 44s.xml">
+      <configuration name="HomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Java_MakeMyTripCode_MakeMyTripChallenge_makemytrip-testng_xml - 2019.04.24 at 22h 33m 14s.xml">
       <configuration name="C:/Java/MakeMyTripCode/MakeMyTripChallenge/makemytrip-testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchPageTestsRandom - 2019.04.24 at 00h 30m 36s.xml">
-      <configuration name="SearchPageTestsRandom" configurationId="TestNG" />
+    <history-entry file="SearchPageTests - 2019.04.24 at 22h 36m 33s.xml">
+      <configuration name="SearchPageTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchPageTestsRandom - 2019.04.24 at 00h 31m 34s.xml">
-      <configuration name="SearchPageTestsRandom" configurationId="TestNG" />
+    <history-entry file="SearchPageTests_printFlightCounts - 2019.04.24 at 22h 42m 39s.xml">
+      <configuration name="SearchPageTests.printFlightCounts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchPageTestsRandom_verifyTotalAmount - 2019.04.24 at 00h 32m 13s.xml">
-      <configuration name="SearchPageTestsRandom.verifyTotalAmount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchPageTestsRandom - 2019.04.24 at 00h 34m 00s.xml">
-      <configuration name="SearchPageTestsRandom" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchPageTestsRandom_test - 2019.04.24 at 00h 39m 49s.xml">
-      <configuration name="SearchPageTestsRandom.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchPageTestsRandom_test - 2019.04.24 at 00h 40m 20s.xml">
-      <configuration name="SearchPageTestsRandom.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchPageTestsRandom_test - 2019.04.24 at 00h 44m 53s.xml">
-      <configuration name="SearchPageTestsRandom.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchPageTestsRandom_verifyTotalAmount - 2019.04.24 at 00h 54m 19s.xml">
-      <configuration name="SearchPageTestsRandom.verifyTotalAmount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchPageTestsRandom_verifyTotalAmount - 2019.04.24 at 00h 56m 32s.xml">
-      <configuration name="SearchPageTestsRandom.verifyTotalAmount" configurationId="TestNG" />
+    <history-entry file="SearchPageTests_printFlightCounts - 2019.04.24 at 22h 45m 25s.xml">
+      <configuration name="SearchPageTests.printFlightCounts" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40329513" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29068887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -488,15 +486,15 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41389728" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3882175" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4139785" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43189964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297491" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32326284" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32222223" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -507,16 +505,6 @@
     </layout>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTests.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="currentDate" />
@@ -528,16 +516,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/example-testng.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/By.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
@@ -549,14 +527,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-output/STMExtentReport.html" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="76" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/propertieslogs.log" />
     <entry file="file://$PROJECT_DIR$/Screenshots/verifyTitle20190422090021.png" />
     <entry file="file://$PROJECT_DIR$/extent-config.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/DateTest.java" />
@@ -609,20 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14237">
-          <caret line="666" selection-start-line="666" selection-end-line="666" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/environment.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -630,27 +586,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/BrowserUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/OtherUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="63" column="37" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="37" />
+        <state relative-caret-position="360">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/HomePageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="173">
+          <caret line="192" column="1" selection-start-line="192" selection-start-column="1" selection-end-line="192" selection-end-column="1" />
+          <folding>
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2145#2146#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2369#2370#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2529#2530#0" expanded="true" />
+            <element signature="e#3062#3063#0" expanded="true" />
+            <element signature="e#3114#3115#0" expanded="true" />
+            <element signature="e#3345#3346#0" expanded="true" />
+            <element signature="e#3398#3399#0" expanded="true" />
+            <element signature="e#3462#3463#0" expanded="true" />
+            <element signature="e#3562#3563#0" expanded="true" />
+            <element signature="e#5256#5257#0" expanded="true" />
+            <element signature="e#5324#5325#0" expanded="true" />
+            <element signature="e#5512#5513#0" expanded="true" />
+            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5755#5756#0" expanded="true" />
+            <element signature="e#5819#5820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/listeners/RetryAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/listeners/MyTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="76" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1-sources.jar!/org/testng/internal/TestResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#4237#4238#0" expanded="true" />
+            <element signature="e#5166#5167#0" expanded="true" />
+            <element signature="e#5191#5192#0" expanded="true" />
+            <element signature="e#5284#5285#0" expanded="true" />
+            <element signature="e#5311#5312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1-sources.jar!/org/testng/internal/RegexpExpectedExceptionsHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_31/jre/lib/rt.jar!/java/lang/Object.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_31/jre/lib/rt.jar!/java/util/concurrent/ConcurrentHashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+          <folding>
+            <element signature="e#3420#3421#0" expanded="true" />
+            <element signature="e#3476#3477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_31/jre/lib/rt.jar!/java/lang/reflect/Method.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#2848#2849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1-sources.jar!/org/testng/internal/IParameterInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1-sources.jar!/org/testng/internal/BaseTestMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="e#3941#3942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1-sources.jar!/org/testng/internal/annotations/JDK15AnnotationFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1-sources.jar!/org/testng/internal/annotations/TestAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#1075#1076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1-sources.jar!/org/testng/internal/ExpectedExceptionsHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="685" selection-start-line="685" selection-end-line="685" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="190" column="25" selection-start-line="190" selection-start-column="25" selection-end-line="190" selection-end-column="25" />
+        <state relative-caret-position="93">
+          <caret line="182" column="24" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6394#6395#0" expanded="true" />
+            <element signature="e#6449#6450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/BrowserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/ExcelUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makemytrip-testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/HomePageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/propertieslogs.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/base/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTestsRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -659,74 +835,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/base/ActionsClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="108">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makemytrip-testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="157" column="36" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="36" />
-          <folding>
-            <element signature="e#5107#5108#0" expanded="true" />
-            <element signature="e#5207#5208#0" expanded="true" />
-            <element signature="e#7233#7234#0" expanded="true" />
-            <element signature="e#7301#7302#0" expanded="true" />
-            <element signature="e#7342#7343#0" expanded="true" />
-            <element signature="e#7407#7408#0" expanded="true" />
-            <element signature="e#7555#7556#0" expanded="true" />
-            <element signature="e#7620#7621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmt/utils/OtherUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="124" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#4831#4832#0" expanded="true" />
-            <element signature="e#4857#4858#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mmt/tests/SearchPageTestsRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2237#2238#0" expanded="true" />
-            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2818#2819#0" expanded="true" />
+            <element signature="e#2844#2845#0" expanded="true" />
           </folding>
         </state>
       </provider>

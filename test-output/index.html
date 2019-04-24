@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-MakeMyTripChallenge">
-              <span class="suite-name border-passed">MakeMyTripChallenge</span>
+              <span class="suite-name border-failed">MakeMyTripChallenge</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-MakeMyTripChallenge">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">10 methods, 2 failed,  6 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MakeMyTripChallenge" class="hide-methods failed suite-MakeMyTripChallenge"> (hide)</a> <!-- hide-methods failed suite-MakeMyTripChallenge -->
+                      <a href="#" panel-name="suite-MakeMyTripChallenge" class="show-methods failed suite-MakeMyTripChallenge"> (show)</a> <!-- show-methods failed suite-MakeMyTripChallenge -->
+                    </span>
+                    <div class="method-list-content failed suite-MakeMyTripChallenge">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.SearchPageTests" hash-for-method="printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:33 IST 2019, Wed May 01 22:30:33 IST 2019)">printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:33 IST 2019, Wed May 01 22:30:33 IST 2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.SearchPageTestsRandom" hash-for-method="verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:56 IST 2019, Wed May 01 22:32:56 IST 2019)">verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:56 IST 2019, Wed May 01 22:32:56 IST 2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MakeMyTripChallenge -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-MakeMyTripChallenge" class="hide-methods skipped suite-MakeMyTripChallenge"> (hide)</a> <!-- hide-methods skipped suite-MakeMyTripChallenge -->
+                      <a href="#" panel-name="suite-MakeMyTripChallenge" class="show-methods skipped suite-MakeMyTripChallenge"> (show)</a> <!-- show-methods skipped suite-MakeMyTripChallenge -->
+                    </span>
+                    <div class="method-list-content skipped suite-MakeMyTripChallenge">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.SearchPageTests" hash-for-method="printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:18 IST 2019, Wed May 01 22:29:18 IST 2019)">printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:18 IST 2019, Wed May 01 22:29:18 IST 2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.SearchPageTests" hash-for-method="printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:44 IST 2019, Wed May 01 22:27:44 IST 2019)">printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:44 IST 2019, Wed May 01 22:27:44 IST 2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.SearchPageTests" hash-for-method="printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:01 IST 2019, Wed May 01 22:29:01 IST 2019)">printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:01 IST 2019, Wed May 01 22:29:01 IST 2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.SearchPageTestsRandom" hash-for-method="verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:59 IST 2019, Wed May 01 22:30:59 IST 2019)">verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:59 IST 2019, Wed May 01 22:30:59 IST 2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.SearchPageTestsRandom" hash-for-method="verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:11 IST 2019, Wed May 01 22:32:11 IST 2019)">verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:11 IST 2019, Wed May 01 22:32:11 IST 2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.SearchPageTestsRandom" hash-for-method="verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:31:55 IST 2019, Wed May 01 22:31:55 IST 2019)">verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:31:55 IST 2019, Wed May 01 22:31:55 IST 2019)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-MakeMyTripChallenge -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +160,7 @@
                     <div class="method-list-content passed suite-MakeMyTripChallenge">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.HomePageTests" hash-for-method="verifyFlightsActive">verifyFlightsActive</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-MakeMyTripChallenge" title="com.mmt.tests.HomePageTests" hash-for-method="searchFlights(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:13 IST 2019, Wed May 01 22:27:13 IST 2019)">searchFlights(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:13 IST 2019, Wed May 01 22:27:13 IST 2019)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -122,6 +180,261 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MakeMyTripChallenge" class="panel MakeMyTripChallenge">
+          <div class="suite-MakeMyTripChallenge-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mmt.tests.SearchPageTestsRandom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:56 IST 2019, Wed May 01 22:32:56 IST 2019)">
+                  </a> <!-- verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:56 IST 2019, Wed May 01 22:32:56 IST 2019) -->
+                  <span class="method-name">verifyTotalAmount</span>
+                  <span class="parameters">(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:56 IST 2019, Wed May 01 22:32:56 IST 2019)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 40251544115a9f8ba1b6d81254668112
+*** Element info: {Using=xpath, value=./div[contains(@class, &apos;DayPicker-Day&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at com.mmt.pages.HomePage.selectDepartureDate(HomePage.java:142)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:26)
+	at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:31)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MakeMyTripChallenge-class-failed -->
+          <div class="suite-MakeMyTripChallenge-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mmt.tests.SearchPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:33 IST 2019, Wed May 01 22:30:33 IST 2019)">
+                  </a> <!-- printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:33 IST 2019, Wed May 01 22:30:33 IST 2019) -->
+                  <span class="method-name">printFlightCounts</span>
+                  <span class="parameters">(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:33 IST 2019, Wed May 01 22:30:33 IST 2019)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 9a58a5d055c3924f34580c9d92dc6120
+*** Element info: {Using=xpath, value=./div[contains(@class, &apos;DayPicker-Day&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at com.mmt.pages.HomePage.selectDepartureDate(HomePage.java:142)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:26)
+	at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MakeMyTripChallenge-class-failed -->
+          <div class="suite-MakeMyTripChallenge-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.mmt.tests.SearchPageTestsRandom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:59 IST 2019, Wed May 01 22:30:59 IST 2019)">
+                  </a> <!-- verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:59 IST 2019, Wed May 01 22:30:59 IST 2019) -->
+                  <span class="method-name">verifyTotalAmount</span>
+                  <span class="parameters">(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:59 IST 2019, Wed May 01 22:30:59 IST 2019)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (40251544115a9f8ba1b6d81254668112)] -&gt; xpath: //div[@id=&apos;fli_filter__stops&apos;]//span[text()=&apos;Stops&apos;]/following-sibling::a[text()=&apos;Reset&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 40251544115a9f8ba1b6d81254668112
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.mmt.utils.BrowserUtils.waitAndClick(BrowserUtils.java:59)
+	at com.mmt.pages.SearchPage.resetStopsFilter(SearchPage.java:66)
+	at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:11 IST 2019, Wed May 01 22:32:11 IST 2019)">
+                  </a> <!-- verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:11 IST 2019, Wed May 01 22:32:11 IST 2019) -->
+                  <span class="method-name">verifyTotalAmount</span>
+                  <span class="parameters">(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:11 IST 2019, Wed May 01 22:32:11 IST 2019)</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [20393] but found [20289]
+	at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:52)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:31:55 IST 2019, Wed May 01 22:31:55 IST 2019)">
+                  </a> <!-- verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:31:55 IST 2019, Wed May 01 22:31:55 IST 2019) -->
+                  <span class="method-name">verifyTotalAmount</span>
+                  <span class="parameters">(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:31:55 IST 2019, Wed May 01 22:31:55 IST 2019)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 40251544115a9f8ba1b6d81254668112
+*** Element info: {Using=xpath, value=./div[contains(@class, &apos;DayPicker-Day&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at com.mmt.pages.HomePage.selectDepartureDate(HomePage.java:142)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:26)
+	at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:31)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MakeMyTripChallenge-class-skipped -->
+          <div class="suite-MakeMyTripChallenge-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.mmt.tests.SearchPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:18 IST 2019, Wed May 01 22:29:18 IST 2019)">
+                  </a> <!-- printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:18 IST 2019, Wed May 01 22:29:18 IST 2019) -->
+                  <span class="method-name">printFlightCounts</span>
+                  <span class="parameters">(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:18 IST 2019, Wed May 01 22:29:18 IST 2019)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (9a58a5d055c3924f34580c9d92dc6120)] -&gt; xpath: //div[@id=&apos;fli_filter__stops&apos;]//span[text()=&apos;Stops&apos;]/following-sibling::a[text()=&apos;Reset&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 9a58a5d055c3924f34580c9d92dc6120
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.mmt.utils.BrowserUtils.waitAndClick(BrowserUtils.java:59)
+	at com.mmt.pages.SearchPage.resetStopsFilter(SearchPage.java:66)
+	at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:39)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:44 IST 2019, Wed May 01 22:27:44 IST 2019)">
+                  </a> <!-- printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:44 IST 2019, Wed May 01 22:27:44 IST 2019) -->
+                  <span class="method-name">printFlightCounts</span>
+                  <span class="parameters">(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:44 IST 2019, Wed May 01 22:27:44 IST 2019)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (9a58a5d055c3924f34580c9d92dc6120)] -&gt; xpath: //div[@id=&apos;fli_filter__stops&apos;]//span[text()=&apos;Stops&apos;]/following-sibling::a[text()=&apos;Reset&apos;]] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 9a58a5d055c3924f34580c9d92dc6120
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.mmt.utils.BrowserUtils.waitAndClick(BrowserUtils.java:59)
+	at com.mmt.pages.SearchPage.resetStopsFilter(SearchPage.java:66)
+	at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:39)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:01 IST 2019, Wed May 01 22:29:01 IST 2019)">
+                  </a> <!-- printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:01 IST 2019, Wed May 01 22:29:01 IST 2019) -->
+                  <span class="method-name">printFlightCounts</span>
+                  <span class="parameters">(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:01 IST 2019, Wed May 01 22:29:01 IST 2019)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 9a58a5d055c3924f34580c9d92dc6120
+*** Element info: {Using=xpath, value=./div[contains(@class, &apos;DayPicker-Day&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at com.mmt.pages.HomePage.selectDepartureDate(HomePage.java:142)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:26)
+	at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MakeMyTripChallenge-class-skipped -->
           <div class="suite-MakeMyTripChallenge-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -130,9 +443,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFlightsActive">
-                  </a> <!-- verifyFlightsActive -->
-                  <span class="method-name">verifyFlightsActive</span>
+                  <a name="searchFlights(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:13 IST 2019, Wed May 01 22:27:13 IST 2019)">
+                  </a> <!-- searchFlights(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:13 IST 2019, Wed May 01 22:27:13 IST 2019) -->
+                  <span class="method-name">searchFlights</span>
+                  <span class="parameters">(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:13 IST 2019, Wed May 01 22:27:13 IST 2019)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -154,11 +468,24 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;MakeMyTripChallenge&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.mmt.listeners.MyTransformer&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;MakeMyTripChallenge&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.mmt.tests.HomePageTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- MakeMyTripChallenge --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MakeMyTripChallenge1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mmt.tests.SearchPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MakeMyTripChallenge1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MakeMyTripChallenge2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mmt.tests.SearchPageTestsRandom&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MakeMyTripChallenge2 --&gt;
 &lt;/suite&gt; &lt;!-- MakeMyTripChallenge --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -171,6 +498,12 @@
             <ul>
               <li>
                 <span class="test-name">MakeMyTripChallenge (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MakeMyTripChallenge1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MakeMyTripChallenge2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,20 +529,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyTitle')
-data.setCell(0, 2, 'com.mmt.tests.HomePageTests')
-data.setCell(0, 3, 43);
+data.setCell(0, 1, 'printFlightCounts')
+data.setCell(0, 2, 'com.mmt.tests.SearchPageTests')
+data.setCell(0, 3, 76334);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyFlightsActive')
-data.setCell(1, 2, 'com.mmt.tests.HomePageTests')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'printFlightCounts')
+data.setCell(1, 2, 'com.mmt.tests.SearchPageTests')
+data.setCell(1, 3, 75180);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTotalAmount')
+data.setCell(2, 2, 'com.mmt.tests.SearchPageTestsRandom')
+data.setCell(2, 3, 55398);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyTotalAmount')
+data.setCell(3, 2, 'com.mmt.tests.SearchPageTestsRandom')
+data.setCell(3, 3, 44745);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchFlights')
+data.setCell(4, 2, 'com.mmt.tests.HomePageTests')
+data.setCell(4, 3, 23483);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'printFlightCounts')
+data.setCell(5, 2, 'com.mmt.tests.SearchPageTests')
+data.setCell(5, 3, 17143);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyTotalAmount')
+data.setCell(6, 2, 'com.mmt.tests.SearchPageTestsRandom')
+data.setCell(6, 3, 16501);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'printFlightCounts')
+data.setCell(7, 2, 'com.mmt.tests.SearchPageTests')
+data.setCell(7, 3, 16465);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyTotalAmount')
+data.setCell(8, 2, 'com.mmt.tests.SearchPageTestsRandom')
+data.setCell(8, 3, 16303);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyTitle')
+data.setCell(9, 2, 'com.mmt.tests.HomePageTests')
+data.setCell(9, 3, 16);
 window.suiteTableData['MakeMyTripChallenge']= { tableData: data, tableDiv: 'times-div-MakeMyTripChallenge'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 44 ms</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-MakeMyTripChallenge">
               </div> <!-- times-div-MakeMyTripChallenge -->
             </div> <!-- times-div -->
@@ -236,22 +601,80 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.mmt.tests.HomePageTests</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="configuration-test before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyFlightsActive</span>
-                <span class="method-start">21051 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyTitle</span>
-                <span class="method-start">21057 ms</span>
+                <span class="method-start">7936 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
+              <div class="test-method">
+                <span class="method-name">searchFlights(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:13 IST 2019, Wed May 01 22:27:13 IST 2019)</span>
+                <span class="method-start">7952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
                 <span class="method-name">end</span>
-                <span class="method-start">21100 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-start">31435 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mmt.tests.SearchPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32284 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:27:44 IST 2019, Wed May 01 22:27:44 IST 2019)</span>
+                <span class="method-start">39323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:01 IST 2019, Wed May 01 22:29:01 IST 2019)</span>
+                <span class="method-start">115657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:29:18 IST 2019, Wed May 01 22:29:18 IST 2019)</span>
+                <span class="method-start">132804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">printFlightCounts(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:33 IST 2019, Wed May 01 22:30:33 IST 2019)</span>
+                <span class="method-start">207984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">end</span>
+                <span class="method-start">224461 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mmt.tests.SearchPageTestsRandom</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">225315 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:30:59 IST 2019, Wed May 01 22:30:59 IST 2019)</span>
+                <span class="method-start">234140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:31:55 IST 2019, Wed May 01 22:31:55 IST 2019)</span>
+                <span class="method-start">289538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:11 IST 2019, Wed May 01 22:32:11 IST 2019)</span>
+                <span class="method-start">306039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyTotalAmount(RoundTrip, Delhi, Bangalore, Wed Apr 24 22:32:56 IST 2019, Wed May 01 22:32:56 IST 2019)</span>
+                <span class="method-start">350784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">end</span>
+                <span class="method-start">367095 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
