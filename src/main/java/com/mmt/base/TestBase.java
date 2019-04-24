@@ -1,6 +1,7 @@
 package com.mmt.base;
 
 import com.mmt.utils.DateUtils;
+import com.mmt.utils.OtherUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -21,8 +22,10 @@ public class TestBase {
     public static WebDriver driver;
     private static String OS = System.getProperty("os.name").toLowerCase();
 
-
+    private static final Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + TestBase.class + "]", 40) );
+    private static Logger logStatic = LogManager.getLogger(OtherUtils.padLeft("[" + TestBase.class + "]", 40) );
     public TestBase() {
+        logger4j.info("*Constructor* Begins");
         FileInputStream inputFile;
         props = new Properties();
         try {
@@ -33,6 +36,7 @@ public class TestBase {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        logger4j.info("*Constructor* Ends");
     }
 
     /**
@@ -41,6 +45,7 @@ public class TestBase {
      */
     public static void initialize()
     {
+        logStatic.info("*initialize* Begins");
         ChromeOptions options = new ChromeOptions();
 
         String osPart, exePart;
@@ -78,8 +83,9 @@ public class TestBase {
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(Long.parseLong(props.getProperty("PAGE_LOAD_TIMEOUT")), TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(Long.parseLong(props.getProperty("IMPLICITLY_WAIT")), TimeUnit.SECONDS);
-
+        logStatic.info("*initialize* Driver Created");
         driver.get(props.getProperty("url"));
+        logStatic.info("*initialize* Ends");
     }
 
     /**
@@ -87,7 +93,9 @@ public class TestBase {
      */
     public void tearDown()
     {
+        logger4j.info("*tearDown* Begins");
         driver.quit();
+        logger4j.info("*tearDown* Ends");
     }
 
 

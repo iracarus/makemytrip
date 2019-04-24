@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" retried="6" total="10" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" retried="3" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="MakeMyTripChallenge" duration-ms="367908" started-at="2019-04-24T22:27:05 IST" finished-at="2019-04-24T22:33:13 IST">
+  <suite name="MakeMyTripChallenge" duration-ms="243993" started-at="2019-04-24T23:13:52 IST" finished-at="2019-04-24T23:17:56 IST">
     <groups>
     </groups>
-    <test name="MakeMyTripChallenge" duration-ms="32252" started-at="2019-04-24T22:27:05 IST" finished-at="2019-04-24T22:27:37 IST">
+    <test name="MakeMyTripChallenge" duration-ms="29581" started-at="2019-04-24T23:13:52 IST" finished-at="2019-04-24T23:14:21 IST">
       <class name="com.mmt.tests.HomePageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mmt.tests.HomePageTests@122c3c3]" name="setup" is-config="true" duration-ms="7921" started-at="2019-04-24T22:27:05 IST" finished-at="2019-04-24T22:27:13 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mmt.tests.HomePageTests@5824a83d]" name="setup" is-config="true" duration-ms="11441" started-at="2019-04-24T23:13:52 IST" finished-at="2019-04-24T23:14:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.mmt.tests.HomePageTests@122c3c3]" name="verifyTitle" duration-ms="16" started-at="2019-04-24T22:27:13 IST" finished-at="2019-04-24T22:27:13 IST">
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.mmt.tests.HomePageTests@5824a83d]" name="verifyTitle" duration-ms="20" started-at="2019-04-24T23:14:03 IST" finished-at="2019-04-24T23:14:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="searchFlights(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:2, instance:com.mmt.tests.HomePageTests@122c3c3]" name="searchFlights" duration-ms="23483" started-at="2019-04-24T22:27:13 IST" data-provider="PerformSearch" finished-at="2019-04-24T22:27:37 IST">
+        <test-method status="PASS" signature="searchFlights(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:2, instance:com.mmt.tests.HomePageTests@5824a83d]" name="searchFlights" duration-ms="17820" started-at="2019-04-24T23:14:03 IST" data-provider="PerformSearch" finished-at="2019-04-24T23:14:21 IST">
           <params>
             <param index="0">
               <value>
@@ -34,31 +34,31 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Wed Apr 24 22:27:13 IST 2019]]>
+                <![CDATA[Wed Apr 24 23:14:03 IST 2019]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Wed May 01 22:27:13 IST 2019]]>
+                <![CDATA[Wed May 01 23:14:03 IST 2019]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFlights -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.mmt.tests.HomePageTests@122c3c3]" name="end" is-config="true" duration-ms="817" started-at="2019-04-24T22:27:37 IST" finished-at="2019-04-24T22:27:37 IST">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.mmt.tests.HomePageTests@5824a83d]" name="end" is-config="true" duration-ms="234" started-at="2019-04-24T23:14:21 IST" finished-at="2019-04-24T23:14:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.mmt.tests.HomePageTests -->
     </test> <!-- MakeMyTripChallenge -->
-    <test name="MakeMyTripChallenge1" duration-ms="192984" started-at="2019-04-24T22:27:37 IST" finished-at="2019-04-24T22:30:50 IST">
+    <test name="MakeMyTripChallenge1" duration-ms="168179" started-at="2019-04-24T23:14:21 IST" finished-at="2019-04-24T23:17:09 IST">
       <class name="com.mmt.tests.SearchPageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mmt.tests.SearchPageTests@41772e]" name="setup" is-config="true" duration-ms="7039" started-at="2019-04-24T22:27:37 IST" finished-at="2019-04-24T22:27:44 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mmt.tests.SearchPageTests@750e2b97]" name="setup" is-config="true" duration-ms="5150" started-at="2019-04-24T23:14:21 IST" finished-at="2019-04-24T23:14:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="printFlightCounts(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:5, instance:com.mmt.tests.SearchPageTests@41772e]" name="printFlightCounts" duration-ms="76334" retried="true" started-at="2019-04-24T22:27:44 IST" data-provider="PerformSearch" finished-at="2019-04-24T22:29:01 IST">
+        <test-method status="SKIP" signature="printFlightCounts(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:5, instance:com.mmt.tests.SearchPageTests@750e2b97]" name="printFlightCounts" duration-ms="67609" retried="true" started-at="2019-04-24T23:14:26 IST" data-provider="PerformSearch" finished-at="2019-04-24T23:15:34 IST">
           <params>
             <param index="0">
               <value>
@@ -77,31 +77,31 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Wed Apr 24 22:27:44 IST 2019]]>
+                <![CDATA[Wed Apr 24 23:14:26 IST 2019]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Wed May 01 22:27:44 IST 2019]]>
+                <![CDATA[Wed May 01 23:14:26 IST 2019]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (9a58a5d055c3924f34580c9d92dc6120)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (4492b27aa8ddaa08e3e93a43b6fbdd09)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+System info: host: 'Rajs-MacBook-Air.local', ip: 'fe80:0:0:0:82:8363:fe13:116d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9a58a5d055c3924f34580c9d92dc6120]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50502}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4492b27aa8ddaa08e3e93a43b6fbdd09]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (9a58a5d055c3924f34580c9d92dc6120)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (4492b27aa8ddaa08e3e93a43b6fbdd09)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+System info: host: 'Rajs-MacBook-Air.local', ip: 'fe80:0:0:0:82:8363:fe13:116d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9a58a5d055c3924f34580c9d92dc6120
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50502}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4492b27aa8ddaa08e3e93a43b6fbdd09
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 at com.mmt.utils.BrowserUtils.waitAndClick(BrowserUtils.java:59)
@@ -110,7 +110,7 @@ at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:39)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:483)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
@@ -137,7 +137,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printFlightCounts -->
-        <test-method status="SKIP" signature="printFlightCounts(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:5, instance:com.mmt.tests.SearchPageTests@41772e]" name="printFlightCounts" duration-ms="17143" retried="true" started-at="2019-04-24T22:29:01 IST" data-provider="PerformSearch" finished-at="2019-04-24T22:29:18 IST">
+        <test-method status="SKIP" signature="printFlightCounts(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:5, instance:com.mmt.tests.SearchPageTests@750e2b97]" name="printFlightCounts" duration-ms="14170" retried="true" started-at="2019-04-24T23:15:34 IST" data-provider="PerformSearch" finished-at="2019-04-24T23:15:48 IST">
           <params>
             <param index="0">
               <value>
@@ -156,12 +156,12 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
             </param>
             <param index="3">
               <value>
-                <![CDATA[Wed Apr 24 22:29:01 IST 2019]]>
+                <![CDATA[Wed Apr 24 23:15:34 IST 2019]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Wed May 01 22:29:01 IST 2019]]>
+                <![CDATA[Wed May 01 23:15:34 IST 2019]]>
               </value>
             </param>
           </params>
@@ -169,32 +169,32 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
             <message>
               <![CDATA[stale element reference: element is not attached to the page document
   (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+System info: host: 'Rajs-MacBook-Air.local', ip: 'fe80:0:0:0:82:8363:fe13:116d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9a58a5d055c3924f34580c9d92dc6120
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50502}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4492b27aa8ddaa08e3e93a43b6fbdd09
 *** Element info: {Using=xpath, value=./div[contains(@class, 'DayPicker-Day')]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+System info: host: 'Rajs-MacBook-Air.local', ip: 'fe80:0:0:0:82:8363:fe13:116d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9a58a5d055c3924f34580c9d92dc6120
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50502}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4492b27aa8ddaa08e3e93a43b6fbdd09
 *** Element info: {Using=xpath, value=./div[contains(@class, 'DayPicker-Day')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -214,7 +214,7 @@ at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:32)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:483)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
 at org.testng.internal.Invoker.retryFailed(Invoker.java:926)
@@ -241,7 +241,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printFlightCounts -->
-        <test-method status="SKIP" signature="printFlightCounts(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:5, instance:com.mmt.tests.SearchPageTests@41772e]" name="printFlightCounts" duration-ms="75180" retried="true" started-at="2019-04-24T22:29:18 IST" data-provider="PerformSearch" finished-at="2019-04-24T22:30:33 IST">
+        <test-method status="SKIP" signature="printFlightCounts(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:5, instance:com.mmt.tests.SearchPageTests@750e2b97]" name="printFlightCounts" duration-ms="66822" retried="true" started-at="2019-04-24T23:15:48 IST" data-provider="PerformSearch" finished-at="2019-04-24T23:16:55 IST">
           <params>
             <param index="0">
               <value>
@@ -260,31 +260,31 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
             </param>
             <param index="3">
               <value>
-                <![CDATA[Wed Apr 24 22:29:18 IST 2019]]>
+                <![CDATA[Wed Apr 24 23:15:48 IST 2019]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Wed May 01 22:29:18 IST 2019]]>
+                <![CDATA[Wed May 01 23:15:48 IST 2019]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (9a58a5d055c3924f34580c9d92dc6120)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (4492b27aa8ddaa08e3e93a43b6fbdd09)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+System info: host: 'Rajs-MacBook-Air.local', ip: 'fe80:0:0:0:82:8363:fe13:116d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9a58a5d055c3924f34580c9d92dc6120]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50502}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4492b27aa8ddaa08e3e93a43b6fbdd09]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (9a58a5d055c3924f34580c9d92dc6120)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on MAC (4492b27aa8ddaa08e3e93a43b6fbdd09)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+System info: host: 'Rajs-MacBook-Air.local', ip: 'fe80:0:0:0:82:8363:fe13:116d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9a58a5d055c3924f34580c9d92dc6120
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50502}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4492b27aa8ddaa08e3e93a43b6fbdd09
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 at com.mmt.utils.BrowserUtils.waitAndClick(BrowserUtils.java:59)
@@ -293,7 +293,7 @@ at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:39)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:483)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
 at org.testng.internal.Invoker.retryFailed(Invoker.java:926)
@@ -320,7 +320,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printFlightCounts -->
-        <test-method status="FAIL" signature="printFlightCounts(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:5, instance:com.mmt.tests.SearchPageTests@41772e]" name="printFlightCounts" duration-ms="16465" started-at="2019-04-24T22:30:33 IST" data-provider="PerformSearch" finished-at="2019-04-24T22:30:50 IST">
+        <test-method status="FAIL" signature="printFlightCounts(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:5, instance:com.mmt.tests.SearchPageTests@750e2b97]" name="printFlightCounts" duration-ms="14176" started-at="2019-04-24T23:16:55 IST" data-provider="PerformSearch" finished-at="2019-04-24T23:17:09 IST">
           <params>
             <param index="0">
               <value>
@@ -339,12 +339,12 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
             </param>
             <param index="3">
               <value>
-                <![CDATA[Wed Apr 24 22:30:33 IST 2019]]>
+                <![CDATA[Wed Apr 24 23:16:55 IST 2019]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Wed May 01 22:30:33 IST 2019]]>
+                <![CDATA[Wed May 01 23:16:55 IST 2019]]>
               </value>
             </param>
           </params>
@@ -352,32 +352,32 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
             <message>
               <![CDATA[stale element reference: element is not attached to the page document
   (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+System info: host: 'Rajs-MacBook-Air.local', ip: 'fe80:0:0:0:82:8363:fe13:116d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9a58a5d055c3924f34580c9d92dc6120
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50502}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4492b27aa8ddaa08e3e93a43b6fbdd09
 *** Element info: {Using=xpath, value=./div[contains(@class, 'DayPicker-Day')]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
+System info: host: 'Rajs-MacBook-Air.local', ip: 'fe80:0:0:0:82:8363:fe13:116d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55651}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 9a58a5d055c3924f34580c9d92dc6120
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50502}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 4492b27aa8ddaa08e3e93a43b6fbdd09
 *** Element info: {Using=xpath, value=./div[contains(@class, 'DayPicker-Day')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -397,7 +397,7 @@ at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:32)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:483)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
 at org.testng.internal.Invoker.retryFailed(Invoker.java:926)
@@ -424,19 +424,19 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printFlightCounts -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.mmt.tests.SearchPageTests@41772e]" name="end" is-config="true" duration-ms="807" started-at="2019-04-24T22:30:50 IST" finished-at="2019-04-24T22:30:50 IST">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.mmt.tests.SearchPageTests@750e2b97]" name="end" is-config="true" duration-ms="229" started-at="2019-04-24T23:17:09 IST" finished-at="2019-04-24T23:17:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.mmt.tests.SearchPageTests -->
     </test> <!-- MakeMyTripChallenge1 -->
-    <test name="MakeMyTripChallenge2" duration-ms="142593" started-at="2019-04-24T22:30:50 IST" finished-at="2019-04-24T22:33:13 IST">
+    <test name="MakeMyTripChallenge2" duration-ms="46188" started-at="2019-04-24T23:17:09 IST" finished-at="2019-04-24T23:17:56 IST">
       <class name="com.mmt.tests.SearchPageTestsRandom">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.mmt.tests.SearchPageTestsRandom@80d78a]" name="setup" is-config="true" duration-ms="8825" started-at="2019-04-24T22:30:50 IST" finished-at="2019-04-24T22:30:59 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mmt.tests.SearchPageTestsRandom@f0c8a99]" name="setup" is-config="true" duration-ms="5008" started-at="2019-04-24T23:17:09 IST" finished-at="2019-04-24T23:17:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyTotalAmount(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:0, instance:com.mmt.tests.SearchPageTestsRandom@80d78a]" name="verifyTotalAmount" duration-ms="55398" retried="true" started-at="2019-04-24T22:30:59 IST" data-provider="PerformSearch" finished-at="2019-04-24T22:31:55 IST">
+        <test-method status="PASS" signature="verifyTotalAmount(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:0, instance:com.mmt.tests.SearchPageTestsRandom@f0c8a99]" name="verifyTotalAmount" duration-ms="40910" started-at="2019-04-24T23:17:14 IST" data-provider="PerformSearch" finished-at="2019-04-24T23:17:55 IST">
           <params>
             <param index="0">
               <value>
@@ -455,346 +455,19 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
             </param>
             <param index="3">
               <value>
-                <![CDATA[Wed Apr 24 22:30:59 IST 2019]]>
+                <![CDATA[Wed Apr 24 23:17:14 IST 2019]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Wed May 01 22:30:59 IST 2019]]>
+                <![CDATA[Wed May 01 23:17:14 IST 2019]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (40251544115a9f8ba1b6d81254668112)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 40251544115a9f8ba1b6d81254668112]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (40251544115a9f8ba1b6d81254668112)] -> xpath: //div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 40251544115a9f8ba1b6d81254668112
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.mmt.utils.BrowserUtils.waitAndClick(BrowserUtils.java:59)
-at com.mmt.pages.SearchPage.resetStopsFilter(SearchPage.java:66)
-at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:32)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:483)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:792)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1103)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
-at org.testng.SuiteRunner.run(SuiteRunner.java:302)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
-at org.testng.TestNG.runSuites(TestNG.java:997)
-at org.testng.TestNG.run(TestNG.java:965)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTotalAmount -->
-        <test-method status="SKIP" signature="verifyTotalAmount(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:0, instance:com.mmt.tests.SearchPageTestsRandom@80d78a]" name="verifyTotalAmount" duration-ms="16501" retried="true" started-at="2019-04-24T22:31:55 IST" data-provider="PerformSearch" finished-at="2019-04-24T22:32:11 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RoundTrip]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Delhi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Wed Apr 24 22:31:55 IST 2019]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Wed May 01 22:31:55 IST 2019]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 40251544115a9f8ba1b6d81254668112
-*** Element info: {Using=xpath, value=./div[contains(@class, 'DayPicker-Day')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 40251544115a9f8ba1b6d81254668112
-*** Element info: {Using=xpath, value=./div[contains(@class, 'DayPicker-Day')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
-at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
-at com.mmt.pages.HomePage.selectDepartureDate(HomePage.java:142)
-at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:26)
-at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:31)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:483)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:926)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1127)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
-at org.testng.SuiteRunner.run(SuiteRunner.java:302)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
-at org.testng.TestNG.runSuites(TestNG.java:997)
-at org.testng.TestNG.run(TestNG.java:965)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTotalAmount -->
-        <test-method status="SKIP" signature="verifyTotalAmount(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:0, instance:com.mmt.tests.SearchPageTestsRandom@80d78a]" name="verifyTotalAmount" duration-ms="44745" retried="true" started-at="2019-04-24T22:32:11 IST" data-provider="PerformSearch" finished-at="2019-04-24T22:32:56 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RoundTrip]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Delhi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Wed Apr 24 22:32:11 IST 2019]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Wed May 01 22:32:11 IST 2019]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[did not expect to find [20393] but found [20289]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: did not expect to find [20393] but found [20289]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:839)
-at org.testng.Assert.assertEquals(Assert.java:849)
-at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:52)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:483)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:926)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1127)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
-at org.testng.SuiteRunner.run(SuiteRunner.java:302)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
-at org.testng.TestNG.runSuites(TestNG.java:997)
-at org.testng.TestNG.run(TestNG.java:965)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTotalAmount -->
-        <test-method status="FAIL" signature="verifyTotalAmount(java.lang.String, java.lang.String, java.lang.String, java.util.Date, java.util.Date)[pri:0, instance:com.mmt.tests.SearchPageTestsRandom@80d78a]" name="verifyTotalAmount" duration-ms="16303" started-at="2019-04-24T22:32:56 IST" data-provider="PerformSearch" finished-at="2019-04-24T22:33:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RoundTrip]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Delhi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Wed Apr 24 22:32:56 IST 2019]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Wed May 01 22:32:56 IST 2019]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 40251544115a9f8ba1b6d81254668112
-*** Element info: {Using=xpath, value=./div[contains(@class, 'DayPicker-Day')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IND-PF0XJQYL-LT', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_31'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\RAJESH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55965}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: 40251544115a9f8ba1b6d81254668112
-*** Element info: {Using=xpath, value=./div[contains(@class, 'DayPicker-Day')]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
-at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:265)
-at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
-at com.mmt.pages.HomePage.selectDepartureDate(HomePage.java:142)
-at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:26)
-at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:31)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:483)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:658)
-at org.testng.internal.Invoker.retryFailed(Invoker.java:926)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1127)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:140)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:354)
-at org.testng.SuiteRunner.run(SuiteRunner.java:302)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1145)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
-at org.testng.TestNG.runSuites(TestNG.java:997)
-at org.testng.TestNG.run(TestNG.java:965)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTotalAmount -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.mmt.tests.SearchPageTestsRandom@80d78a]" name="end" is-config="true" duration-ms="813" started-at="2019-04-24T22:33:12 IST" finished-at="2019-04-24T22:33:13 IST">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.mmt.tests.SearchPageTestsRandom@f0c8a99]" name="end" is-config="true" duration-ms="267" started-at="2019-04-24T23:17:55 IST" finished-at="2019-04-24T23:17:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

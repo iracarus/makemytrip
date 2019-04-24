@@ -4,6 +4,7 @@ import com.mmt.base.ActionsClass;
 import com.mmt.base.TestBase;
 import com.mmt.pages.SearchPage;
 import com.mmt.utils.BrowserUtils;
+import com.mmt.utils.OtherUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -14,7 +15,7 @@ import org.testng.annotations.Test;
 import java.util.Date;
 
 public class SearchPageTestsRandom extends TestBase {
-    private Logger logger4j= LogManager.getLogger(SearchPage.class);
+    private Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + SearchPageTestsRandom.class + "]", 40));
     private SearchPage searchPage;
     private ActionsClass actionsClass;
 

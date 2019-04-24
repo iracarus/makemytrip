@@ -1,6 +1,8 @@
 package com.mmt.utils;
 
 import com.mmt.base.TestBase;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -8,7 +10,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BrowserUtils extends TestBase {
+    public static final Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + BrowserUtils.class + "]", 40) );
+
     public static void scrollToTop() {
+        logger4j.info("*scrollToTop* Begins");
         try {
             JavascriptExecutor js = (JavascriptExecutor)driver;
 
@@ -21,7 +26,7 @@ public class BrowserUtils extends TestBase {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+        logger4j.info("*scrollToTop* Ends");
     }
 
     public static void ScrollDown() {

@@ -3,6 +3,7 @@ package com.mmt.tests;
 import com.mmt.base.ActionsClass;
 import com.mmt.base.TestBase;
 import com.mmt.pages.SearchPage;
+import com.mmt.utils.OtherUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -15,7 +16,7 @@ import java.util.Date;
 public class HomePageTests extends TestBase {
     private SearchPage searchPage;
     private ActionsClass actionsClass;
-    public Logger logger4j= LogManager.getLogger("Automation Framework");
+    private Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + HomePageTests.class + "]", 40));
 
     @BeforeTest
     public void setup()

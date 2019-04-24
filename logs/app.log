@@ -1,0 +1,223 @@
+2019-04-24 23:13:13,770 DEBUG Automation Framework [main] About to setup - HomePageTests
+2019-04-24 23:13:19,978 DEBUG Automation Framework [main] About to setup - HomePageTests
+2019-04-24 23:13:20,052 DEBUG Automation Framework [main] Test Starting ------- verifyTitle
+2019-04-24 23:13:20,126 INFO Automation Framework [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-24 23:13:20,132 DEBUG Automation Framework [main] End Test ---- VerifyTitle
+2019-04-24 23:13:20,166 DEBUG Automation Framework [main] Startig Test --------- searchFlights
+2019-04-24 23:13:20,166 DEBUG Automation Framework [main] About to start Perform Search.
+2019-04-24 23:13:38,559 DEBUG Automation Framework [main] ended the perform search action
+2019-04-24 23:13:39,547 INFO Automation Framework [main] Succefully searched for the flight.
+2019-04-24 23:13:39,549 DEBUG Automation Framework [main] About to end the test ---- home page tests class
+2019-04-24 23:13:39,776 DEBUG Automation Framework [main] Ended the test for ----- home page tests class
+2019-04-24 23:13:52,196 DEBUG Automation Framework [main] About to setup - HomePageTests
+2019-04-24 23:14:03,609 DEBUG Automation Framework [main] About to setup - HomePageTests
+2019-04-24 23:14:03,640 DEBUG Automation Framework [main] Test Starting ------- verifyTitle
+2019-04-24 23:14:03,655 INFO Automation Framework [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-24 23:14:03,658 DEBUG Automation Framework [main] End Test ---- VerifyTitle
+2019-04-24 23:14:03,693 DEBUG Automation Framework [main] Startig Test --------- searchFlights
+2019-04-24 23:14:03,694 DEBUG Automation Framework [main] About to start Perform Search.
+2019-04-24 23:14:21,450 DEBUG Automation Framework [main] ended the perform search action
+2019-04-24 23:14:21,510 INFO Automation Framework [main] Succefully searched for the flight.
+2019-04-24 23:14:21,513 DEBUG Automation Framework [main] About to end the test ---- home page tests class
+2019-04-24 23:14:21,746 DEBUG Automation Framework [main] Ended the test for ----- home page tests class
+2019-04-24 23:15:01,425 INFO GLOBAL [main] Without Filter - departure flights options : 61
+2019-04-24 23:15:01,457 INFO GLOBAL [main] Without Filter - return flights options : 80
+2019-04-24 23:16:22,520 INFO GLOBAL [main] Without Filter - departure flights options : 61
+2019-04-24 23:16:22,561 INFO GLOBAL [main] Without Filter - return flights options : 80
+2019-04-24 23:17:55,884 INFO c.m.p.SearchPage [main] Stop Type : RoundTripExpected : 21532, Actual : 21532
+2019-04-24 23:18:25,065 DEBUG Automation Framework [main] About to setup - HomePageTests
+2019-04-24 23:18:31,955 DEBUG Automation Framework [main] About to setup - HomePageTests
+2019-04-24 23:18:31,990 DEBUG Automation Framework [main] Test Starting ------- verifyTitle
+2019-04-24 23:18:32,010 INFO Automation Framework [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-24 23:18:32,013 DEBUG Automation Framework [main] End Test ---- VerifyTitle
+2019-04-24 23:18:32,035 DEBUG Automation Framework [main] Startig Test --------- searchFlights
+2019-04-24 23:18:32,035 DEBUG Automation Framework [main] About to start Perform Search.
+2019-04-24 23:18:50,654 DEBUG Automation Framework [main] ended the perform search action
+2019-04-24 23:18:50,727 INFO Automation Framework [main] Succefully searched for the flight.
+2019-04-24 23:18:50,729 DEBUG Automation Framework [main] About to end the test ---- home page tests class
+2019-04-24 23:18:50,926 DEBUG Automation Framework [main] Ended the test for ----- home page tests class
+2019-04-24 23:20:57,565 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:20:57,687 DEBUG Automation Framework [main] About to setup - HomePageTests
+2019-04-24 23:21:04,290 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:21:04,398 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:21:04,404 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:21:04,412 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:21:04,416 DEBUG Automation Framework [main] About to setup - HomePageTests
+2019-04-24 23:21:04,463 DEBUG Automation Framework [main] Test Starting ------- verifyTitle
+2019-04-24 23:21:04,479 INFO Automation Framework [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-24 23:21:04,483 DEBUG Automation Framework [main] End Test ---- VerifyTitle
+2019-04-24 23:21:04,517 DEBUG Automation Framework [main] Startig Test --------- searchFlights
+2019-04-24 23:21:04,517 DEBUG Automation Framework [main] About to start Perform Search.
+2019-04-24 23:21:22,974 DEBUG Automation Framework [main] ended the perform search action
+2019-04-24 23:21:23,839 INFO Automation Framework [main] Succefully searched for the flight.
+2019-04-24 23:21:23,841 DEBUG Automation Framework [main] About to end the test ---- home page tests class
+2019-04-24 23:21:24,108 DEBUG Automation Framework [main] Ended the test for ----- home page tests class
+2019-04-24 23:27:18,982 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:27:25,754 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:27:25,812 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:27:25,816 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:27:25,819 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:28:03,633 INFO [.m.t.SearchPageTests] [main] Without Filter - departure flights options : 61
+2019-04-24 23:28:03,664 INFO [.m.t.SearchPageTests] [main] Without Filter - return flights options : 80
+2019-04-24 23:36:50,850 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:36:50,969 DEBUG                          [HomePageTests]* [main] About to setup - HomePageTests
+2019-04-24 23:36:58,218 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:36:58,274 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:36:58,280 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:36:58,282 INFO TestBase [main] ******** Starting Test Base *****
+2019-04-24 23:36:58,284 DEBUG                          [HomePageTests]* [main] About to setup - HomePageTests
+2019-04-24 23:36:58,309 DEBUG                          [HomePageTests]* [main] Test Starting ------- verifyTitle
+2019-04-24 23:36:58,325 INFO                          [HomePageTests]* [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-24 23:36:58,329 DEBUG                          [HomePageTests]* [main] End Test ---- VerifyTitle
+2019-04-24 23:36:58,347 DEBUG                          [HomePageTests]* [main] Startig Test --------- searchFlights
+2019-04-24 23:36:58,348 DEBUG                          [HomePageTests]* [main] About to start Perform Search.
+2019-04-24 23:38:58,517 INFO  .m.b.TestBase]* [main] ******** Starting Test Base *****
+2019-04-24 23:38:58,606 DEBUG  .m.t.HomePageTests]* [main] About to setup - HomePageTests
+2019-04-24 23:39:05,839 INFO  .m.b.TestBase]* [main] ******** Starting Test Base *****
+2019-04-24 23:39:05,919 INFO  .m.b.TestBase]* [main] ******** Starting Test Base *****
+2019-04-24 23:39:05,923 INFO  .m.b.TestBase]* [main] ******** Starting Test Base *****
+2019-04-24 23:39:05,926 INFO  .m.b.TestBase]* [main] ******** Starting Test Base *****
+2019-04-24 23:39:05,928 DEBUG  .m.t.HomePageTests]* [main] About to setup - HomePageTests
+2019-04-24 23:39:05,977 DEBUG  .m.t.HomePageTests]* [main] Test Starting ------- verifyTitle
+2019-04-24 23:39:06,005 INFO  .m.t.HomePageTests]* [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-24 23:39:06,009 DEBUG  .m.t.HomePageTests]* [main] End Test ---- VerifyTitle
+2019-04-24 23:39:06,032 DEBUG  .m.t.HomePageTests]* [main] Startig Test --------- searchFlights
+2019-04-24 23:39:06,033 DEBUG  .m.t.HomePageTests]* [main] About to start Perform Search.
+2019-04-24 23:39:25,409 DEBUG  .m.t.HomePageTests]* [main] ended the perform search action
+2019-04-24 23:39:25,471 INFO  .m.t.HomePageTests]* [main] Succefully searched for the flight.
+2019-04-24 23:39:25,472 DEBUG  .m.t.HomePageTests]* [main] About to end the test ---- home page tests class
+2019-04-24 23:39:25,751 DEBUG  .m.t.HomePageTests]* [main] Ended the test for ----- home page tests class
+2019-04-24 23:54:44,871 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-24 23:54:44,888 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-24 23:54:44,984 INFO  .m.b.TestBase] [main] *initialize* Begins
+2019-04-24 23:54:48,619 INFO  .m.b.TestBase] [main] *initialize* Driver Created
+2019-04-24 23:54:58,844 INFO  .m.b.TestBase] [main] *initialize* Ends
+2019-04-24 23:54:58,846 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-24 23:54:58,847 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-24 23:54:58,911 INFO  .m.b.ActionsClass] [main] *Constructor* Begins
+2019-04-24 23:54:58,914 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-24 23:54:58,915 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-24 23:54:58,917 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-24 23:54:58,918 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-24 23:54:58,920 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-24 23:54:58,921 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-24 23:54:58,922 INFO  .m.b.ActionsClass] [main] *Constructor* Ends
+2019-04-24 23:54:58,994 INFO  .m.b.ActionsClass] [main] *performsSearch* Begins
+2019-04-24 23:55:16,597 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-24 23:55:39,336 INFO [.m.t.SearchPageTests] [main] Without Filter - departure flights options : 62
+2019-04-24 23:55:39,379 INFO [.m.t.SearchPageTests] [main] Without Filter - return flights options : 80
+2019-04-24 23:55:39,379 INFO  .m.u.BrowserUtils] [main] *scrollToTop* Begins
+2019-04-24 23:55:41,470 INFO  .m.u.BrowserUtils] [main] *scrollToTop* Ends
+2019-04-24 23:56:12,582 INFO  .m.b.TestBase] [main] *tearDown* Begins
+2019-04-24 23:56:12,893 INFO  .m.b.TestBase] [main] *tearDown* Ends
+2019-04-25 00:02:09,513 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:02:09,522 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:02:09,627 INFO  .m.b.TestBase] [main] *initialize* Begins
+2019-04-25 00:02:13,182 INFO  .m.b.TestBase] [main] *initialize* Driver Created
+2019-04-25 00:02:16,886 INFO  .m.b.TestBase] [main] *initialize* Ends
+2019-04-25 00:02:16,889 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:02:16,890 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:02:16,949 INFO  .m.b.ActionsClass] [main] *Constructor* Begins
+2019-04-25 00:02:16,951 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:02:16,952 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:02:16,956 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:02:16,956 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:02:16,959 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:02:16,960 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:02:16,961 INFO  .m.b.ActionsClass] [main] *Constructor* Ends
+2019-04-25 00:02:16,994 INFO  .m.b.ActionsClass] [main] *performsSearch* Begins
+2019-04-25 00:02:32,023 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 00:02:42,094 INFO  .m.b.TestBase] [main] *tearDown* Begins
+2019-04-25 00:02:42,348 INFO  .m.b.TestBase] [main] *tearDown* Ends
+2019-04-25 00:13:22,465 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:13:22,472 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:13:22,579 INFO  .m.t.SearchPageTests] [main] *BeforeTest-setup* Begins ( TestBase-Initialize, searchPage, actionsClass )
+2019-04-25 00:13:22,579 INFO  .m.b.TestBase] [main] *initialize* Begins
+2019-04-25 00:13:26,091 INFO  .m.b.TestBase] [main] *initialize* Driver Created
+2019-04-25 00:13:30,271 INFO  .m.b.TestBase] [main] *initialize* Ends
+2019-04-25 00:13:30,274 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:13:30,274 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:13:30,332 INFO  .m.b.ActionsClass] [main] *Constructor* Begins
+2019-04-25 00:13:30,336 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:13:30,337 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:13:30,339 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:13:30,339 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:13:30,343 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:13:30,344 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:13:30,345 INFO  .m.b.ActionsClass] [main] *Constructor* Ends
+2019-04-25 00:13:30,345 INFO  .m.t.SearchPageTests] [main] *BeforeTest-setup* Ends
+2019-04-25 00:13:30,383 INFO  .m.t.SearchPageTests] [main] *printFlightCounts* Begins
+2019-04-25 00:13:30,384 INFO  .m.b.ActionsClass] [main] *performsSearch* Begins
+2019-04-25 00:13:45,391 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 00:13:52,511 INFO  .m.t.SearchPageTests] [main] *AfterTest-end* Begins
+2019-04-25 00:13:52,512 INFO  .m.b.TestBase] [main] *tearDown* Begins
+2019-04-25 00:13:52,688 INFO  .m.b.TestBase] [main] *tearDown* Ends
+2019-04-25 00:13:52,689 INFO  .m.t.SearchPageTests] [main] AfterTest-end* Ends
+2019-04-25 00:14:44,838 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:14:44,857 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:14:44,943 INFO  .m.t.SearchPageTests] [main] *BeforeTest-setup* Begins ( TestBase-Initialize, searchPage, actionsClass )
+2019-04-25 00:14:44,943 INFO  .m.b.TestBase] [main] *initialize* Begins
+2019-04-25 00:14:48,492 INFO  .m.b.TestBase] [main] *initialize* Driver Created
+2019-04-25 00:14:53,956 INFO  .m.b.TestBase] [main] *initialize* Ends
+2019-04-25 00:14:53,958 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:14:53,959 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:14:54,022 INFO  .m.b.ActionsClass] [main] *Constructor* Begins
+2019-04-25 00:14:54,026 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:14:54,026 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:14:54,028 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:14:54,029 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:14:54,032 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:14:54,033 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:14:54,034 INFO  .m.b.ActionsClass] [main] *Constructor* Ends
+2019-04-25 00:14:54,034 INFO  .m.t.SearchPageTests] [main] *BeforeTest-setup* Ends
+2019-04-25 00:14:54,079 INFO  .m.t.SearchPageTests] [main] *printFlightCounts* Begins
+2019-04-25 00:14:54,079 INFO  .m.b.ActionsClass] [main] *performsSearch* Begins
+2019-04-25 00:15:09,672 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 00:15:19,351 INFO  .m.t.SearchPageTests] [main] *AfterTest-end* Begins
+2019-04-25 00:15:19,351 INFO  .m.b.TestBase] [main] *tearDown* Begins
+2019-04-25 00:15:19,530 INFO  .m.b.TestBase] [main] *tearDown* Ends
+2019-04-25 00:15:19,530 INFO  .m.t.SearchPageTests] [main] AfterTest-end* Ends
+2019-04-25 00:20:00,748 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:20:00,756 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:20:00,844 INFO  .m.t.SearchPageTests] [main] *BeforeTest-setup* Begins ( TestBase-Initialize, searchPage, actionsClass )
+2019-04-25 00:20:00,844 INFO  .m.b.TestBase] [main] *initialize* Begins
+2019-04-25 00:20:05,333 INFO  .m.b.TestBase] [main] *initialize* Driver Created
+2019-04-25 00:20:12,949 INFO  .m.b.TestBase] [main] *initialize* Ends
+2019-04-25 00:20:12,952 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:20:12,953 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:20:13,024 INFO  .m.b.ActionsClass] [main] *Constructor* Begins
+2019-04-25 00:20:13,026 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:20:13,026 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:20:13,027 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:20:13,028 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:20:13,030 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:20:13,031 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:20:13,032 INFO  .m.b.ActionsClass] [main] *Constructor* Ends
+2019-04-25 00:20:13,032 INFO  .m.t.SearchPageTests] [main] *BeforeTest-setup* Ends
+2019-04-25 00:20:13,073 INFO  .m.t.SearchPageTests] [main] *printFlightCounts* Begins
+2019-04-25 00:20:13,073 INFO  .m.b.ActionsClass] [main] *performsSearch* Begins
+2019-04-25 00:20:27,911 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 00:21:03,701 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:21:03,714 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:21:03,815 INFO  .m.t.SearchPageTests] [main] *BeforeTest-setup* Begins ( TestBase-Initialize, searchPage, actionsClass )
+2019-04-25 00:21:03,816 INFO  .m.b.TestBase] [main] *initialize* Begins
+2019-04-25 00:21:07,565 INFO  .m.b.TestBase] [main] *initialize* Driver Created
+2019-04-25 00:21:11,704 INFO  .m.b.TestBase] [main] *initialize* Ends
+2019-04-25 00:21:11,706 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:21:11,707 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:21:11,788 INFO  .m.b.ActionsClass] [main] *Constructor* Begins
+2019-04-25 00:21:11,790 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:21:11,791 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:21:11,793 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:21:11,794 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:21:11,797 INFO  .m.b.TestBase] [main] *Constructor* Begins
+2019-04-25 00:21:11,798 INFO  .m.b.TestBase] [main] *Constructor* Ends
+2019-04-25 00:21:11,799 INFO  .m.b.ActionsClass] [main] *Constructor* Ends
+2019-04-25 00:21:11,800 INFO  .m.t.SearchPageTests] [main] *BeforeTest-setup* Ends
+2019-04-25 00:21:11,835 INFO  .m.t.SearchPageTests] [main] *printFlightCounts* Begins
+2019-04-25 00:21:11,835 INFO  .m.b.ActionsClass] [main] *performsSearch* Begins
+2019-04-25 00:21:26,660 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 00:21:36,756 INFO  .m.t.SearchPageTests] [main] *AfterTest-end* Begins
+2019-04-25 00:21:36,756 INFO  .m.b.TestBase] [main] *tearDown* Begins
+2019-04-25 00:21:36,967 INFO  .m.b.TestBase] [main] *tearDown* Ends
+2019-04-25 00:21:36,967 INFO  .m.t.SearchPageTests] [main] AfterTest-end* Ends

@@ -14,4 +14,12 @@ public class OtherUtils {
         double x = (int)(Math.random()*((max-min)+1))+min;
         return x;
     }
+
+    public static String padRight(String s, int n) {
+        return String.format("%-" + n + "s", s);
+    }
+
+    public static String padLeft(String s, int n) {
+        return String.format("%" + n + "s", s);
+    }
 }
