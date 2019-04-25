@@ -1,5 +1,12 @@
 package com.mmt.base;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.mmt.pages.SearchPage;
 import com.mmt.utils.DateUtils;
 import com.mmt.utils.OtherUtils;
 import org.apache.logging.log4j.LogManager;
@@ -8,7 +15,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.DataProvider;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,12 +28,12 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     public static Properties props;
     public static WebDriver driver;
+
     private static String OS = System.getProperty("os.name").toLowerCase();
 
     private static final Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + TestBase.class + "]", 40) );
     private static Logger logStatic = LogManager.getLogger(OtherUtils.padLeft("[" + TestBase.class + "]", 40) );
     public TestBase() {
-        logger4j.info("*Constructor* Begins");
         FileInputStream inputFile;
         props = new Properties();
         try {
@@ -36,7 +44,6 @@ public class TestBase {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        logger4j.info("*Constructor* Ends");
     }
 
     /**
@@ -45,7 +52,6 @@ public class TestBase {
      */
     public static void initialize()
     {
-        logStatic.info("*initialize* Begins");
         ChromeOptions options = new ChromeOptions();
 
         String osPart, exePart;
@@ -83,9 +89,7 @@ public class TestBase {
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(Long.parseLong(props.getProperty("PAGE_LOAD_TIMEOUT")), TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(Long.parseLong(props.getProperty("IMPLICITLY_WAIT")), TimeUnit.SECONDS);
-        logStatic.info("*initialize* Driver Created");
         driver.get(props.getProperty("url"));
-        logStatic.info("*initialize* Ends");
     }
 
     /**
@@ -93,10 +97,9 @@ public class TestBase {
      */
     public void tearDown()
     {
-        logger4j.info("*tearDown* Begins");
         driver.quit();
-        logger4j.info("*tearDown* Ends");
     }
+
 
 
     /**

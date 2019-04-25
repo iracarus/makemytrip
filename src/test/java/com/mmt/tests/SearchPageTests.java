@@ -24,51 +24,30 @@ public class SearchPageTests extends TestBase {
     @BeforeTest
     public void setup()
     {
-        logger4j.info("*BeforeTest-setup* Begins ( TestBase-Initialize, searchPage, actionsClass )");
         TestBase.initialize();
         searchPage = new SearchPage();
         actionsClass = new ActionsClass();
-        logger4j.info("*BeforeTest-setup* Ends");
     }
 
     @Test(priority = 5, dataProvider = "PerformSearch")
     public void printFlightCounts(String stopType, String departureCity, String arrivalCity, Date departureDate, Date returnDate) throws InterruptedException {
-        logger4j.info("*printFlightCounts* Begins");
         actionsClass.performSearch(stopType, departureCity, arrivalCity, departureDate, returnDate);
-        logger4j.info("*printFlightCounts* Performed Search");
 
-        logger4j.info("*printFlightCounts* now will scroll down");
         BrowserUtils.ScrollDown();
-        logger4j.info("*printflightCounts* scrolled down");
         logger4j.info("Without Filter - departure flights options : " + searchPage.getDepartureFlightCounts());
         logger4j.info("Without Filter - return flights options : " + searchPage.getReturnFlightCounts());
-        logger4j.info("*printFlightCounts* now will scroll to top");
+
         BrowserUtils.scrollToTop();
-        logger4j.info("*printFlightCounts* scolled to top");
-        logger4j.info("*printFlightCounts* going to reset the stops filter");
         searchPage.resetStopsFilter();
-        logger4j.info("*printFlightCounts* resetted the Stops filter");
 
-        logger4j.info("*printFlightCounts* going to reset the stops filter");
         searchPage.resetStopsFilter();
-        logger4j.info("*printFlightCounts* resetted the Stops filter");
-
-        logger4j.info("*printFlightCounts* going to select non stop option");
         searchPage.selectNonStop();
-        logger4j.info("*printFlightCounts* completed the selection of non stop option");
 
-
-        logger4j.info("*printFlightCounts* now will scroll down");
         BrowserUtils.ScrollDown();
-        logger4j.info("*printflightCounts* scrolled down");
-
         logger4j.info("Non Stop Filter - departure flights options : " + searchPage.getDepartureFlightCounts());
         logger4j.info("Non Stop Filter - return flights options : " + searchPage.getReturnFlightCounts());
 
-        logger4j.info("*printFlightCounts* now will scroll to top");
         BrowserUtils.scrollToTop();
-        logger4j.info("*printFlightCounts* scolled to top");
-
         searchPage.resetStopsFilter();
 
         searchPage.resetStopsFilter();
@@ -83,8 +62,6 @@ public class SearchPageTests extends TestBase {
     @AfterTest
     public void end()
     {
-        logger4j.info("*AfterTest-end* Begins");
         tearDown();
-        logger4j.info("AfterTest-end* Ends");
     }
 }

@@ -17,14 +17,11 @@ public class ActionsClass {
 
     public ActionsClass()
     {
-        logger4j.info("*Constructor* Begins");
         homePage = new HomePage();
         searchPage = new SearchPage();
-        logger4j.info("*Constructor* Ends");
     }
 
     public boolean performSearch(String tripType, String departureCity, String arrivalCity, Date depDate, Date retDate) throws InterruptedException {
-        logger4j.info("*performsSearch* Begins");
         Date currentDate = new Date();
         Date returnDate = DateUtils.addDays(currentDate, 7);
         homePage.selectSection("Flights");

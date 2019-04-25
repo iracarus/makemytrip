@@ -10,23 +10,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BrowserUtils extends TestBase {
-    public static final Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + BrowserUtils.class + "]", 40) );
+    private static final Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + BrowserUtils.class + "]", 40) );
 
     public static void scrollToTop() {
-        logger4j.info("*scrollToTop* Begins");
         try {
             JavascriptExecutor js = (JavascriptExecutor)driver;
 
             //This will scroll the web page till end.
             js.executeScript("window.scrollTo(0, -document.body.scrollHeight);");
             Thread.sleep(2000);
-
             js.executeScript("window.scrollTo(0, -250);");
-
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        logger4j.info("*scrollToTop* Ends");
     }
 
     public static void ScrollDown() {
@@ -73,11 +69,9 @@ public class BrowserUtils extends TestBase {
 
     public static void jsClick(WebElement element)
     {
-
         scrollToElement(element);
         WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
         wait.until(ExpectedConditions.elementToBeClickable(element));
         ((JavascriptExecutor)driver).executeScript("arguments[0].click();", element);
     }
-
 }
