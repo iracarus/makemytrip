@@ -9582,3 +9582,140 @@
 2019-04-25 13:43:54,777 DEBUG  .m.t.HomePageTests] [main] End Test ---- VerifyTitle
 2019-04-25 13:43:54,782 DEBUG  .m.t.HomePageTests] [main] About to end the test ---- home page tests class
 2019-04-25 13:43:55,541 DEBUG  .m.t.HomePageTests] [main] Ended the test for ----- home page tests class
+2019-04-25 15:54:51,197 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 15:57:10,772 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 15:57:35,284 INFO [.m.t.SearchPageTestsRandom] [main] Stop Type : RoundTripExpected : 14823, Actual : 14823
+2019-04-25 16:05:37,715 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 16:17:26,204 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 16:17:46,695 INFO  .m.t.SearchPageTestsRandom] [main] Stop Type : RoundTrip. Expected : 14823, Actual : 14823
+2019-04-25 16:20:45,617 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 16:21:08,060 INFO  .m.t.SearchPageTestsRandom] [main] Result 0, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:21:21,091 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:21:34,778 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:27:43,987 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 16:28:03,843 INFO  .m.t.SearchPageTestsRandom] [main] Result 0, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:28:16,879 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:28:30,608 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : RoundTrip. Expected : 15173, Actual : 15173
+2019-04-25 16:29:56,656 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 16:30:22,751 INFO  .m.t.SearchPageTestsRandom] [main] Result 0, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:30:35,827 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:30:49,771 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : RoundTrip. Expected : 15173, Actual : 15173
+2019-04-25 16:33:05,784 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 16:33:31,560 INFO  .m.t.SearchPageTestsRandom] [main] Result 0, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:33:44,713 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:33:58,624 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : RoundTrip. Expected : 15173, Actual : 15173
+2019-04-25 16:38:22,108 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 16:38:35,878 INFO  .m.t.SearchPageTestsRandom] [main] Result 0, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:38:49,067 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:46:51,931 DEBUG  .m.t.HomePageTests] [main] About to setup - HomePageTests
+2019-04-25 16:54:29,288 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 16:54:45,112 INFO  .m.t.SearchPageTestsRandom] [main] Result 0, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:55:08,263 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : RoundTrip. Expected : 14086, Actual : 14086
+2019-04-25 16:55:23,553 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : RoundTrip. Expected : 15196, Actual : 15196
+2019-04-25 16:59:04,047 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 16:59:05,295 INFO  .m.t.SearchPageTestsRandom] [main] 
+2019-04-25 16:59:38,564 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : . Expected : 14086, Actual : 14086
+2019-04-25 16:59:53,923 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : . Expected : 15196, Actual : 15196
+2019-04-25 17:00:09,310 INFO  .m.t.SearchPageTestsRandom] [main] Result 3, Stop Type : . Expected : 15196, Actual : 15196
+2019-04-25 17:01:44,531 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 17:01:45,799 INFO  .m.t.SearchPageTestsRandom] [main] 
+2019-04-25 17:02:18,260 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : . Expected : 14086, Actual : 14086
+2019-04-25 17:02:33,639 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : . Expected : 15196, Actual : 15196
+2019-04-25 17:02:48,957 INFO  .m.t.SearchPageTestsRandom] [main] Result 3, Stop Type : . Expected : 15196, Actual : 15196
+2019-04-25 17:03:31,622 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 17:03:32,771 INFO  .m.t.SearchPageTestsRandom] [main] nonstop
+2019-04-25 17:03:56,324 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : nonstop. Expected : 15196, Actual : 15196
+2019-04-25 17:04:11,348 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : nonstop. Expected : 15196, Actual : 15196
+2019-04-25 17:04:26,489 INFO  .m.t.SearchPageTestsRandom] [main] Result 3, Stop Type : nonstop. Expected : 15905, Actual : 15905
+2019-04-25 17:05:10,837 INFO  .m.b.ActionsClass] [main] *performSearch* Ends
+2019-04-25 17:05:12,102 INFO  .m.t.SearchPageTestsRandom] [main] singlestop
+2019-04-25 17:05:33,098 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : singlestop. Expected : 14227, Actual : 14227
+2019-04-25 17:05:48,196 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : singlestop. Expected : 18533, Actual : 18533
+2019-04-25 17:06:03,246 INFO  .m.t.SearchPageTestsRandom] [main] Result 3, Stop Type : singlestop. Expected : 20393, Actual : 20393
+2019-04-25 17:23:14,790 DEBUG  .m.t.HomePageTests] [main] About to setup - HomePageTests
+2019-04-25 17:23:29,716 DEBUG  .m.t.HomePageTests] [main] About to setup - HomePageTests
+2019-04-25 17:23:29,718 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 17:23:29,736 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-25 17:23:29,736 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-25 17:24:11,278 DEBUG  .m.t.HomePageTests] [main] About to setup - HomePageTests
+2019-04-25 17:24:23,940 DEBUG  .m.t.HomePageTests] [main] About to setup - HomePageTests
+2019-04-25 17:24:23,942 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 17:24:23,971 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-25 17:24:23,971 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-25 17:25:18,020 INFO  .m.t.SearchPageTests] [main] Without Filter - departure flights options : 84
+2019-04-25 17:25:28,053 INFO  .m.t.SearchPageTests] [main] Without Filter - return flights options : 0
+2019-04-25 17:25:37,347 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - departure flights options : 35
+2019-04-25 17:25:37,378 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - return flights options : 36
+2019-04-25 17:25:46,706 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - departure flights options : 45
+2019-04-25 17:25:56,733 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - return flights options : 0
+2019-04-25 17:26:44,821 INFO  .m.t.SearchPageTestsRandom] [main] 
+2019-04-25 17:27:12,051 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : . Expected : 14227, Actual : 14227
+2019-04-25 17:27:27,293 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : . Expected : 15057, Actual : 15057
+2019-04-25 17:27:42,496 INFO  .m.t.SearchPageTestsRandom] [main] Result 3, Stop Type : . Expected : 15360, Actual : 15360
+2019-04-25 17:27:57,771 INFO  .m.t.SearchPageTestsRandom] [main] Result 4, Stop Type : . Expected : 16457, Actual : 16457
+2019-04-25 17:28:13,043 INFO  .m.t.SearchPageTestsRandom] [main] Result 5, Stop Type : . Expected : 16467, Actual : 16467
+2019-04-25 17:28:28,294 INFO  .m.t.SearchPageTestsRandom] [main] Result 6, Stop Type : . Expected : 16587, Actual : 16587
+2019-04-25 17:28:43,579 INFO  .m.t.SearchPageTestsRandom] [main] Result 7, Stop Type : . Expected : 16692, Actual : 16692
+2019-04-25 17:28:58,834 INFO  .m.t.SearchPageTestsRandom] [main] Result 8, Stop Type : . Expected : 16692, Actual : 16692
+2019-04-25 17:29:14,021 INFO  .m.t.SearchPageTestsRandom] [main] Result 9, Stop Type : . Expected : 17154, Actual : 17154
+2019-04-25 17:29:29,356 INFO  .m.t.SearchPageTestsRandom] [main] Result 10, Stop Type : . Expected : 17332, Actual : 17332
+2019-04-25 17:30:14,795 INFO  .m.t.SearchPageTestsRandom] [main] nonstop
+2019-04-25 17:30:37,203 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : nonstop. Expected : 15196, Actual : 15196
+2019-04-25 17:30:52,125 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : nonstop. Expected : 16288, Actual : 16288
+2019-04-25 17:31:06,976 INFO  .m.t.SearchPageTestsRandom] [main] Result 3, Stop Type : nonstop. Expected : 16587, Actual : 16587
+2019-04-25 17:31:21,820 INFO  .m.t.SearchPageTestsRandom] [main] Result 4, Stop Type : nonstop. Expected : 16693, Actual : 16693
+2019-04-25 17:31:36,720 INFO  .m.t.SearchPageTestsRandom] [main] Result 5, Stop Type : nonstop. Expected : 16587, Actual : 16587
+2019-04-25 17:31:51,621 INFO  .m.t.SearchPageTestsRandom] [main] Result 6, Stop Type : nonstop. Expected : 16938, Actual : 16938
+2019-04-25 17:32:06,479 INFO  .m.t.SearchPageTestsRandom] [main] Result 7, Stop Type : nonstop. Expected : 16940, Actual : 16940
+2019-04-25 17:32:21,369 INFO  .m.t.SearchPageTestsRandom] [main] Result 8, Stop Type : nonstop. Expected : 17202, Actual : 17202
+2019-04-25 17:32:36,244 INFO  .m.t.SearchPageTestsRandom] [main] Result 9, Stop Type : nonstop. Expected : 17358, Actual : 17358
+2019-04-25 17:32:51,129 INFO  .m.t.SearchPageTestsRandom] [main] Result 10, Stop Type : nonstop. Expected : 17786, Actual : 17786
+2019-04-25 17:33:38,698 INFO  .m.t.SearchPageTestsRandom] [main] singlestop
+2019-04-25 17:34:03,197 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : singlestop. Expected : 14227, Actual : 14227
+2019-04-25 17:34:18,520 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : singlestop. Expected : 18533, Actual : 18533
+2019-04-25 17:34:33,528 INFO  .m.t.SearchPageTestsRandom] [main] Result 3, Stop Type : singlestop. Expected : 19779, Actual : 19779
+2019-04-25 17:34:48,493 INFO  .m.t.SearchPageTestsRandom] [main] Result 4, Stop Type : singlestop. Expected : 20766, Actual : 20766
+2019-04-25 17:35:03,576 INFO  .m.t.SearchPageTestsRandom] [main] Result 5, Stop Type : singlestop. Expected : 22251, Actual : 22251
+2019-04-25 17:35:18,763 INFO  .m.t.SearchPageTestsRandom] [main] Result 6, Stop Type : singlestop. Expected : 22695, Actual : 22695
+2019-04-25 17:35:33,845 INFO  .m.t.SearchPageTestsRandom] [main] Result 7, Stop Type : singlestop. Expected : 24176, Actual : 24176
+2019-04-25 17:35:48,958 INFO  .m.t.SearchPageTestsRandom] [main] Result 8, Stop Type : singlestop. Expected : 27460, Actual : 27460
+2019-04-25 17:36:04,029 INFO  .m.t.SearchPageTestsRandom] [main] Result 9, Stop Type : singlestop. Expected : 28801, Actual : 28801
+2019-04-25 17:36:18,993 INFO  .m.t.SearchPageTestsRandom] [main] Result 10, Stop Type : singlestop. Expected : 30283, Actual : 30283
+2019-04-25 18:01:36,867 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 18:01:36,940 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-25 18:01:36,941 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-25 18:25:50,807 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 18:25:50,829 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-25 18:25:50,830 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-25 18:26:02,800 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-25 18:26:34,897 INFO  .m.t.HomePageTests] [main] Succefully searched for the flight.
+2019-04-25 18:26:34,898 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- searchFlights -------
+2019-04-25 18:28:20,463 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 18:28:20,490 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-25 18:28:20,490 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-25 18:28:33,505 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-25 18:29:03,898 INFO  .m.t.HomePageTests] [main] Succefully searched for the flight.
+2019-04-25 18:29:03,898 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- searchFlights -------
+2019-04-25 19:05:49,468 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 19:05:50,632 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-25 19:05:50,632 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-25 19:05:57,783 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-25 19:06:25,126 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-25 19:07:02,139 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 19:07:02,247 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-25 19:07:02,247 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-25 19:07:08,994 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-25 19:07:40,460 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-25 19:27:46,062 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 19:27:46,154 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-25 19:27:46,154 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-25 19:27:54,059 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-25 19:28:22,470 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-25 19:44:20,870 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 19:44:27,460 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-25 19:48:49,265 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 20:37:41,324 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 20:42:29,277 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-25 20:42:29,873 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-25 20:42:29,873 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-25 20:42:37,493 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------

@@ -10,7 +10,9 @@ public class OtherUtils {
     {
         String str1 = stringValue.replace("Rs ", "");
         String str2 = str1.replace(",", "");
-        int i = Integer.parseInt(str2);
+        String str3 = str2.replace("Rs.", "").trim();
+
+        int i = Integer.parseInt(str3);
         return i;
     }
 

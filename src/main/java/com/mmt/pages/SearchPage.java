@@ -12,43 +12,37 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class SearchPage extends TestBase {
-    @FindBy(xpath = "//div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset']")
+    @FindBy(xpath = "//div[@id='fli_filter__stops']//span[text()='Stops']/following-sibling::a[text()='Reset'] | //a[contains(text(),'Reset All')][2]")
     WebElement stopsReset;
 
-    @FindBy(xpath = "//div[@class='fli-intl-container clearfix']")
-    WebElement filter;
-
-    @FindBy(xpath = "//label[contains(@for,'filter_stop0')]//span[@class='box']/span")
+    @FindBy(xpath = "//label[contains(@for,'filter_stop0')]//span[@class='box']/span | //a[@id='stops_0_dep']")
     WebElement nonStopCheckBox;
 
-    @FindBy(xpath = "//label[contains(@for, 'filter_stop1')]//span[@class='box']/span")
+    @FindBy(xpath = "//label[contains(@for, 'filter_stop1')]//span[@class='box']/span | //a[@id='stops_1_dep']")
     WebElement singleStopCheckBox;
 
-    @FindBy(xpath = "//div[@id='ow_domrt-jrny']")
+    @FindAll(@FindBy(xpath= "//div[@id='ow_domrt-jrny']//div[@class='fli-list splitVw-listing']"))
+    List<WebElement> versionCheck;
+
+    @FindBy(xpath = "//div[@id='ow_domrt-jrny'] | //div[@class='col-xs-6 left_pannel']")
     WebElement departureFlightsSection;
 
-    @FindBy(xpath = "//div[@id='rt-domrt-jrny']")
+    @FindBy(xpath = "//div[@id='rt-domrt-jrny'] | //div[@class='col-xs-6 right_pannel']")
     WebElement returnflightsSection;
 
-    @FindAll(@FindBy(xpath="//div[@id='ow_domrt-jrny']//div[@class='fli-list splitVw-listing']"))
+    @FindAll(@FindBy(xpath="//div[@id='ow_domrt-jrny']//div[@class='fli-list splitVw-listing'] | //div[@class='col-xs-6 left_pannel']//div[contains(@class, 'listing_section_part')]/div"))
     List<WebElement> departureFlightOptions;
 
-    @FindAll(@FindBy(xpath="//div[@class='row wrap-dep']/div[2]/div/div/div"))
-    List<WebElement> departureFlightOptionsNew;
-
-    @FindAll(@FindBy(xpath="//div[@id='rt-domrt-jrny']//div[@class='fli-list splitVw-listing']"))
+    @FindAll(@FindBy(xpath="//div[@id='rt-domrt-jrny']//div[@class='fli-list splitVw-listing'] | //div[@class='col-xs-6 right_pannel']//div[@class='ng-binding ng-scope']/div"))
     List<WebElement> returnFlightOptions;
 
-    @FindAll(@FindBy(xpath="//div[@class='row wrap-ret']/div[2]/div/div/div"))
-    List<WebElement> returnFlightOptionsNew;
-
-    @FindBy(xpath =  "//div[contains(@class,'splitVw-footer-left')]//p[@class='actual-price']")
+    @FindBy(xpath =  "//div[contains(@class,'splitVw-footer-left')]//p[@class='actual-price'] | //div[@class='col-md-3 col-sm-6 text-right']/p")
     WebElement priceDeparture;
 
-    @FindBy(xpath =  "//div[contains(@class,'splitVw-footer-right')]//p[@class='actual-price']")
+    @FindBy(xpath =  "//div[contains(@class,'splitVw-footer-right')]//p[@class='actual-price'] | //div[@class='col-md-3 col-sm-6 text-right fare_baggage_ttOpen']/p[1]")
     WebElement priceReturn;
 
-    @FindBy(xpath = "//span[@class='splitVw-total-fare']/span")
+    @FindBy(xpath = "//span[@class='splitVw-total-fare']/span | //div[@class='stk_btm_ttlAmt pull-left']/p[2]")
     WebElement priceTotal;
 
     /**
@@ -106,9 +100,7 @@ public class SearchPage extends TestBase {
      * Returns the count of flights available in Return section after search
      * @return int
      */
-    public int getReturnFlightCounts() {
-        return returnFlightOptions.size();
-    }
+    public int getReturnFlightCounts() { return returnFlightOptions.size();   }
 
     /**
      * Check if the currently active page is the Search Page or not
@@ -120,7 +112,7 @@ public class SearchPage extends TestBase {
 
     /**
      * Selects the departure flight as per the passed parameter
-     * @param searchResultIndex
+     * @param searchResultIndex Index of the flight to select
      * @return int returns the flight index in the search or -1 in case no flight is found
      */
     public int selectDepartureFlight(int searchResultIndex)
@@ -134,7 +126,15 @@ public class SearchPage extends TestBase {
                 {
                     BrowserUtils.scrollToElement(departureFlightOptions.get(i-1));
                 }
-                BrowserUtils.jsClick(departureFlightOptions.get(i));
+                if(versionCheck.size()>0)
+                {
+                    BrowserUtils.jsClick(departureFlightOptions.get(i));
+                }
+                else
+                {
+                    BrowserUtils.jsClick(departureFlightOptions.get(i).findElement(By.xpath(".//input[@type='radio']//preceding-sibling::span")));
+                }
+
                 resultIndex = i;
                 break;
             }
@@ -144,7 +144,7 @@ public class SearchPage extends TestBase {
 
     /**
      * Selects the return flight as per the passed parameter
-     * @param searchResultIndex
+     * @param searchResultIndex This is the index of the flight to be selected
      * @return int returns the flight index in the search or -1 in case no flight is found
      */
     public int selectReturnFlight(int searchResultIndex)
@@ -156,7 +156,15 @@ public class SearchPage extends TestBase {
             if(i==searchResultIndex-1) {
                 if(searchResultIndex!=1)
                     BrowserUtils.scrollToElement(returnFlightOptions.get(i-1));
-                BrowserUtils.jsClick(returnFlightOptions.get(i));
+                if(versionCheck.size() > 0)
+                {
+                    BrowserUtils.jsClick(returnFlightOptions.get(i));
+                }
+                else
+                {
+                    BrowserUtils.jsClick(returnFlightOptions.get(i).findElement(By.xpath(".//input[@type='radio']//preceding-sibling::span")));
+                }
+
                 resultIndex = i;
                 break;
             }

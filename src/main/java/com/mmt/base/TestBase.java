@@ -1,22 +1,11 @@
 package com.mmt.base;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
-import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.mmt.pages.SearchPage;
 import com.mmt.utils.DateUtils;
-import com.mmt.utils.OtherUtils;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.ITestResult;
-import org.testng.annotations.*;
+import org.testng.annotations.DataProvider;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,14 +14,15 @@ import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * This is the base class for all the Tests to extend from
+ */
 public class TestBase {
     public static Properties props;
     public static WebDriver driver;
 
     private static String OS = System.getProperty("os.name").toLowerCase();
 
-    private static final Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + TestBase.class + "]", 40) );
-    private static Logger logStatic = LogManager.getLogger(OtherUtils.padLeft("[" + TestBase.class + "]", 40) );
     public TestBase() {
         FileInputStream inputFile;
         props = new Properties();
@@ -108,6 +98,18 @@ public class TestBase {
      */
     @DataProvider(name="PerformSearch")
     public static Object[][] searchOptions() {
-        return new Object[][]  {{"RoundTrip", "Delhi", "Bangalore", new Date(), DateUtils.addDays(new Date(), 7)}};
+        return new Object[][]  {{"", "Delhi", "Bangalore", new Date(), DateUtils.addDays(new Date(), 7)}};
+    }
+
+    /**
+     * Had to create a separate data provided in order to perform multiple searches for different stop filters
+     * @return  Object[][]
+     */
+    @DataProvider(name="PerformSearchMulti")
+    public static Object[][] searchOptionsMulti() {
+        return new Object[][]  {{"", "Delhi", "Bangalore", new Date(), DateUtils.addDays(new Date(), 7)},
+                                {"nonstop", "Delhi", "Bangalore", new Date(), DateUtils.addDays(new Date(), 7)},
+                                {"singlestop", "Delhi", "Bangalore", new Date(), DateUtils.addDays(new Date(), 7)}
+        };
     }
 }

@@ -14,6 +14,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Home Page Class
+ */
 public class HomePage extends TestBase {
     SearchPage searchPage;
 
@@ -45,7 +48,7 @@ public class HomePage extends TestBase {
      * @author  Raj Chahal
      * @version 1.0
      * @since   2019-04-22
-     * @param sectionName
+     * @param sectionName The main section to navigate to ( currently covers only flights  section
      */
     public void selectSection(String sectionName)
     {
@@ -83,7 +86,7 @@ public class HomePage extends TestBase {
 
     /**
      * Select the Departure City
-     * @param fromCity
+     * @param fromCity  Select city as the Departure City
      */
     public void selectFromCity(String fromCity) throws InterruptedException {
         fromCityElement.click();
@@ -105,7 +108,7 @@ public class HomePage extends TestBase {
 
     /**
      * Select the Arrival City
-     * @param toCity
+     * @param toCity this is the arrival city
      */
     public void selectToCity(String toCity) throws InterruptedException {
         WebElement editBox = driver.findElement(By.xpath("//input[@placeholder='To']"));
@@ -119,7 +122,7 @@ public class HomePage extends TestBase {
         editBox.sendKeys(toCity);
         Thread.sleep(5000);
 
-        for (int i=0; i<toCitySuggestions.size(); i++)
+        for(int i=0; i<toCitySuggestions.size(); i++)
         {
             WebElement currentSuggestion = toCitySuggestions.get(i).findElement(By.xpath(".//p"));
             if(currentSuggestion.getText().equalsIgnoreCase(toCity + ", India"))
@@ -132,7 +135,7 @@ public class HomePage extends TestBase {
 
     /**
      * Select the Departure Date
-     * @param departureDate
+     * @param departureDate select the departure date
      */
     public void selectDepartureDate(Date departureDate)
     {
@@ -155,7 +158,7 @@ public class HomePage extends TestBase {
 
     /**
      * Select the return date
-     * @param returnDate
+     * @param returnDate    select the return date
      */
     public void selectReturnDate(Date returnDate)
     {
@@ -181,20 +184,5 @@ public class HomePage extends TestBase {
      */
     public void clickSearchButton() {
         BrowserUtils.jsClick(searchButton);
-    }
-
-    public boolean performSearch(String tripType, String departureCity, String arrivalCity, Date depDate, Date retDate) throws InterruptedException {
-        Date currentDate = new Date();
-        Date returnDate = DateUtils.addDays(currentDate, 7);
-        selectSection("Flights");
-        waitForSearchButton();
-        selectRoundTripOption();
-        selectFromCity("Mumbai");
-        selectToCity("Chennai");
-        selectDepartureDate(DateUtils.addDays(currentDate, 1));
-        selectReturnDate(returnDate);
-        clickSearchButton();
-
-        return searchPage.isAt();
     }
 }

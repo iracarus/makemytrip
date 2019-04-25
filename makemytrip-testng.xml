@@ -9,12 +9,12 @@
             <class name="com.mmt.tests.HomePageTests"/>
         </classes>
     </test> <!-- MakeMyTripChallenge -->
-    <test name="MakeMyTripChallenge1" enabled="false">
+    <test name="MakeMyTripChallenge1" >
         <classes>
             <class name="com.mmt.tests.SearchPageTests"/>
         </classes>
     </test>
-    <test name="MakeMyTripChallenge2" enabled="false">
+    <test name="MakeMyTripChallenge2">
         <classes>
             <class name="com.mmt.tests.SearchPageTestsRandom"/>
         </classes>

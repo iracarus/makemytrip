@@ -8,18 +8,17 @@ import com.mmt.utils.OtherUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.Reporter;
+import org.testng.annotations.*;
 
 import java.util.Date;
 
 public class SearchPageTestsRandom extends TestBase {
-    private Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + SearchPageTestsRandom.class + "]", 40));
+    private Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + SearchPageTestsRandom.class + "]", Integer.parseInt(props.getProperty("LOGS_PADDING"))));
     private SearchPage searchPage;
     private ActionsClass actionsClass;
 
-    @BeforeTest
+    @BeforeMethod
     public void setup()
     {
         TestBase.initialize();
@@ -27,11 +26,12 @@ public class SearchPageTestsRandom extends TestBase {
         actionsClass = new ActionsClass();
     }
 
-    @Test(dataProvider = "PerformSearch")
+    @Test(priority = 4, dataProvider = "PerformSearchMulti")
     public void verifyTotalAmount(String stopType, String departureCity, String arrivalCity, Date departureDate, Date returnDate) throws InterruptedException {
-        actionsClass.performSearch(stopType, departureCity, arrivalCity, departureDate, returnDate);
+        logger4j.debug("Test Starting ------- verifyTotalAmount -------");
+        actionsClass.performSearch("Flights", departureCity, arrivalCity, departureDate, returnDate);
         searchPage.resetStopsFilter();
-
+        logger4j.info("Test the total amount for Stops Filter Selected as : '" + stopType + "'");
         switch (stopType)
         {
             case "" :
@@ -44,19 +44,25 @@ public class SearchPageTestsRandom extends TestBase {
                 break;
         }
 
-        BrowserUtils.ScrollDown();
-        searchPage.selectDepartureFlight(4);
-        searchPage.selectReturnFlight(7);
-        int expTotalCost = searchPage.getDepartureFlightCost() + searchPage.getReturnFlightCost();
-        int actualTotalCost = searchPage.getTotalCost();
+        for(int i=1; i<=10 ; i++)
+        {
+            BrowserUtils.ScrollDown();
+            searchPage.selectDepartureFlight(i);
+            searchPage.selectReturnFlight(i);
 
-        Assert.assertEquals(actualTotalCost, expTotalCost);
-        logger4j.info("Stop Type : "+ stopType +"Expected : " + expTotalCost + ", Actual : " + actualTotalCost);
+            int expTotalCost = searchPage.getDepartureFlightCost() + searchPage.getReturnFlightCost();
+            int actualTotalCost = searchPage.getTotalCost();
+
+            Assert.assertEquals(actualTotalCost, expTotalCost);
+            logger4j.info("Result "+i+", Stop Type : "+ stopType +", Expected : " + expTotalCost + ", Actual : " + actualTotalCost);
+        }
+        logger4j.debug("Test Ending ------- verifyTotalAmount -------");
+        Reporter.log("Test Ending ------- verifyTotalAmount -------");
     }
 
-    @AfterTest
+    @AfterMethod
     public void end()
     {
-        tearDown();
+        //tearDown();
     }
 }

@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 
 public class SearchPageTests extends TestBase {
-    private Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + SearchPageTests.class + "]", 40));
+    private Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + SearchPageTests.class + "]", Integer.parseInt(props.getProperty("LOGS_PADDING"))));
 
     private SearchPage searchPage;
     private ActionsClass actionsClass;
@@ -29,8 +29,9 @@ public class SearchPageTests extends TestBase {
         actionsClass = new ActionsClass();
     }
 
-    @Test(priority = 5, dataProvider = "PerformSearch")
+    @Test(priority = 3, dataProvider = "PerformSearch")
     public void printFlightCounts(String stopType, String departureCity, String arrivalCity, Date departureDate, Date returnDate) throws InterruptedException {
+        logger4j.debug("Test Starting ------- printFlightsCount -------");
         actionsClass.performSearch(stopType, departureCity, arrivalCity, departureDate, returnDate);
 
         BrowserUtils.ScrollDown();
@@ -57,6 +58,8 @@ public class SearchPageTests extends TestBase {
         logger4j.info("1 Stop Filter - return flights options : " + searchPage.getReturnFlightCounts());
         BrowserUtils.scrollToTop();
         searchPage.resetStopsFilter();
+
+        logger4j.debug("Test Ending ------- printFlightsCount -------");
     }
 
     @AfterTest

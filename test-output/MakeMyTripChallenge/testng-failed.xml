@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="com.mmt.listeners.MyTransformer"/>
   </listeners>
-  <test thread-count="5" name="MakeMyTripChallenge1(failed)">
+  <test thread-count="5" name="MakeMyTripChallenge(failed)">
     <classes>
-      <class name="com.mmt.tests.SearchPageTests">
+      <class name="com.mmt.tests.HomePageTests">
         <methods>
-          <include name="printFlightCounts" invocation-numbers="0 0 0 0"/>
-          <include name="setup"/>
           <include name="end"/>
+          <include name="setup"/>
+          <include name="verifyTitle"/>
         </methods>
-      </class> <!-- com.mmt.tests.SearchPageTests -->
+      </class> <!-- com.mmt.tests.HomePageTests -->
     </classes>
-  </test> <!-- MakeMyTripChallenge1(failed) -->
+  </test> <!-- MakeMyTripChallenge(failed) -->
 </suite> <!-- Failed suite [MakeMyTripChallenge] -->
