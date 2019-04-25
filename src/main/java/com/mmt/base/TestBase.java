@@ -1,10 +1,13 @@
 package com.mmt.base;
 
+import com.mmt.pages.SearchPage;
 import com.mmt.utils.DateUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 
 import java.io.File;
@@ -21,6 +24,9 @@ public class TestBase {
     public static Properties props;
     public static WebDriver driver;
 
+    public  SearchPage searchPage;
+    public ActionsClass actionsClass;
+
     private static String OS = System.getProperty("os.name").toLowerCase();
 
     public TestBase() {
@@ -36,6 +42,19 @@ public class TestBase {
         }
     }
 
+
+    @BeforeMethod
+    public void setup()
+    {
+        TestBase.initialize();
+        searchPage = new SearchPage();
+        actionsClass = new ActionsClass();
+    }
+
+    @AfterMethod
+    public void end() {
+        tearDown();
+    }
     /**
      * Initializes all the basic components like driver, properties file etc
      * Takes care of the operating system to load relevant drivers/files

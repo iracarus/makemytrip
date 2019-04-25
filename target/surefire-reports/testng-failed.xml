@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MakeMyTripChallenge]">
+  <listeners>
+    <listener class-name="com.mmt.listeners.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="MakeMyTripChallenge(failed)">
+    <classes>
+      <class name="com.mmt.tests.HomePageTests">
+        <methods>
+          <include name="end"/>
+          <include name="setup"/>
+          <include name="searchFlights" invocation-numbers="0 0 0 0"/>
+        </methods>
+      </class> <!-- com.mmt.tests.HomePageTests -->
+    </classes>
+  </test> <!-- MakeMyTripChallenge(failed) -->
+  <test thread-count="5" verbose="0" name="MakeMyTripChallenge1(failed)">
+    <classes>
+      <class name="com.mmt.tests.SearchPageTests">
+        <methods>
+          <include name="printFlightCounts" invocation-numbers="0 0 0 0"/>
+          <include name="setup"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.mmt.tests.SearchPageTests -->
+    </classes>
+  </test> <!-- MakeMyTripChallenge1(failed) -->
+  <test thread-count="5" verbose="0" name="MakeMyTripChallenge2(failed)">
+    <classes>
+      <class name="com.mmt.tests.SearchPageTestsRandom">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyTotalAmount" invocation-numbers="0 0 0 0 1 2"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.mmt.tests.SearchPageTestsRandom -->
+    </classes>
+  </test> <!-- MakeMyTripChallenge2(failed) -->
+</suite> <!-- Failed suite [MakeMyTripChallenge] -->

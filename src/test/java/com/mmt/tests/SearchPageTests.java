@@ -18,17 +18,6 @@ import java.util.List;
 public class SearchPageTests extends TestBase {
     private Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + SearchPageTests.class + "]", Integer.parseInt(props.getProperty("LOGS_PADDING"))));
 
-    private SearchPage searchPage;
-    private ActionsClass actionsClass;
-
-    @BeforeTest
-    public void setup()
-    {
-        TestBase.initialize();
-        searchPage = new SearchPage();
-        actionsClass = new ActionsClass();
-    }
-
     @Test(priority = 3, dataProvider = "PerformSearch")
     public void printFlightCounts(String stopType, String departureCity, String arrivalCity, Date departureDate, Date returnDate) throws InterruptedException {
         logger4j.debug("Test Starting ------- printFlightsCount -------");
@@ -60,11 +49,5 @@ public class SearchPageTests extends TestBase {
         searchPage.resetStopsFilter();
 
         logger4j.debug("Test Ending ------- printFlightsCount -------");
-    }
-
-    @AfterTest
-    public void end()
-    {
-        tearDown();
     }
 }

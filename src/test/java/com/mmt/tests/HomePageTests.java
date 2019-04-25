@@ -13,17 +13,7 @@ import org.testng.annotations.*;
 import java.util.Date;
 
 public class HomePageTests extends TestBase {
-    private SearchPage searchPage;
-    private ActionsClass actionsClass;
     private Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + HomePageTests.class + "]", Integer.parseInt(props.getProperty("LOGS_PADDING"))));
-
-    @BeforeMethod
-    public void setup()
-    {
-        TestBase.initialize();
-        actionsClass = new ActionsClass();
-        searchPage = new SearchPage();
-    }
 
     @Test(priority = 1)
     public void verifyTitle()
@@ -49,10 +39,4 @@ public class HomePageTests extends TestBase {
         logger4j.debug("Test Ending ------- searchFlights -------");
         Reporter.log("Test Ending ------- searchFlights -------");
     }
-
-    @AfterMethod
-    public void end() {
-        //tearDown();
-    }
-
 }

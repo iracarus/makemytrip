@@ -15,16 +15,6 @@ import java.util.Date;
 
 public class SearchPageTestsRandom extends TestBase {
     private Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + SearchPageTestsRandom.class + "]", Integer.parseInt(props.getProperty("LOGS_PADDING"))));
-    private SearchPage searchPage;
-    private ActionsClass actionsClass;
-
-    @BeforeMethod
-    public void setup()
-    {
-        TestBase.initialize();
-        searchPage = new SearchPage();
-        actionsClass = new ActionsClass();
-    }
 
     @Test(priority = 4, dataProvider = "PerformSearchMulti")
     public void verifyTotalAmount(String stopType, String departureCity, String arrivalCity, Date departureDate, Date returnDate) throws InterruptedException {
@@ -58,11 +48,5 @@ public class SearchPageTestsRandom extends TestBase {
         }
         logger4j.debug("Test Ending ------- verifyTotalAmount -------");
         Reporter.log("Test Ending ------- verifyTotalAmount -------");
-    }
-
-    @AfterMethod
-    public void end()
-    {
-        //tearDown();
     }
 }

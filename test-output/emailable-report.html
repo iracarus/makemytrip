@@ -8,17 +8,36 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default Suite</th></tr>
-<tr><td><a href="#t0">MakeMyTripChallenge</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">39,838</td><td></td><td></td></tr>
+<tr><th colspan="7">MakeMyTripChallenge</th></tr>
+<tr><td><a href="#t0">MakeMyTripChallenge</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">1</td><td class="num">153,219</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">MakeMyTripChallenge1</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">1</td><td class="num">120,920</td><td></td><td></td></tr>
+<tr><td><a href="#t2">MakeMyTripChallenge2</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">3</td><td class="num">174,109</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num attn">9</th><th class="num attn">5</th><th class="num">448,248</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MakeMyTripChallenge &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mmt.tests.HomePageTests</td><td><a href="#m0">searchFlights</a></td><td rowspan="1">1556205157485</td><td rowspan="1">24242</td></tr><tr><th colspan="4">MakeMyTripChallenge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.mmt.tests.HomePageTests</td><td><a href="#m1">verifyTitle</a></td><td rowspan="1">1556205149249</td><td rowspan="1">624</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MakeMyTripChallenge</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MakeMyTripChallenge &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mmt.tests.HomePageTests</td><td><a href="#m0">searchFlights</a></td><td rowspan="1">1556216115463</td><td rowspan="1">25523</td></tr><tr><th colspan="4">MakeMyTripChallenge &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">com.mmt.tests.HomePageTests</td><td><a href="#m1">searchFlights</a></td><td rowspan="3">1556216011628</td><td rowspan="3">33300</td></tr><tr class="retriedeven"><td><a href="#m2">searchFlights</a></td></tr><tr class="retriedeven"><td><a href="#m3">searchFlights</a></td></tr><tr><th colspan="4">MakeMyTripChallenge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.mmt.tests.HomePageTests</td><td><a href="#m4">verifyTitle</a></td><td rowspan="1">1556216000982</td><td rowspan="1">167</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">MakeMyTripChallenge1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.mmt.tests.SearchPageTests</td><td><a href="#m5">printFlightCounts</a></td><td rowspan="1">1556216236043</td><td rowspan="1">26064</td></tr><tr><th colspan="4">MakeMyTripChallenge1 &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">com.mmt.tests.SearchPageTests</td><td><a href="#m6">printFlightCounts</a></td><td rowspan="3">1556216177874</td><td rowspan="3">24393</td></tr><tr class="retriedeven"><td><a href="#m7">printFlightCounts</a></td></tr><tr class="retriedeven"><td><a href="#m8">printFlightCounts</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">MakeMyTripChallenge2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.mmt.tests.SearchPageTestsRandom</td><td><a href="#m9">verifyTotalAmount</a></td><td rowspan="3">1556216411493</td><td rowspan="3">24996</td></tr><tr class="failedeven"><td><a href="#m10">verifyTotalAmount</a></td></tr><tr class="failedeven"><td><a href="#m11">verifyTotalAmount</a></td></tr><tr><th colspan="4">MakeMyTripChallenge2 &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">com.mmt.tests.SearchPageTestsRandom</td><td><a href="#m12">verifyTotalAmount</a></td><td rowspan="3">1556216324612</td><td rowspan="3">24896</td></tr><tr class="retriedeven"><td><a href="#m13">verifyTotalAmount</a></td></tr><tr class="retriedeven"><td><a href="#m14">verifyTotalAmount</a></td></tr></tbody>
 </table>
-<h2>MakeMyTripChallenge</h2><h3 id="m0">com.mmt.tests.HomePageTests#searchFlights</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td></td><td>Delhi</td><td>Bangalore</td><td>Thu Apr 25 20:42:29 IST 2019</td><td>Thu May 02 20:42:29 IST 2019</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]
+<h2>MakeMyTripChallenge</h2><h3 id="m0">com.mmt.tests.HomePageTests#searchFlights</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td></td><td>Delhi</td><td>Bangalore</td><td>Thu Apr 25 23:45:06 IST 2019</td><td>Thu May 02 23:45:06 IST 2019</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;IND-PF0XJQYL-LT&apos;, ip: &apos;192.168.1.136&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+System info: host: &apos;Rajs-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1021:c5ad:d57d:2cbd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53019}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 552de7bccfd06be647bc443a42baaa09
+*** Element info: {Using=xpath, value=//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
@@ -27,8 +46,128 @@ Driver info: driver.version: RemoteWebDriver
 	at com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)
 	at com.mmt.pages.SearchPage.isAt(SearchPage.java:110)
 	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:44)
-	at com.mmt.tests.HomePageTests.searchFlights(HomePageTests.java:46)
-... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at com.mmt.tests.HomePageTests.searchFlights(HomePageTests.java:36)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.mmt.tests.HomePageTests#verifyTitle</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test Starting ------- verifyTitle -------<br/>Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday<br/>Test Ending ------- verifyTitle -------</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MakeMyTripChallenge1</h2><h3 id="m2">com.mmt.tests.SearchPageTests#printFlightCounts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td></td><td>Delhi</td><td>Bangalore</td><td>Thu Apr 25 23:47:12 IST 2019</td><td>Thu May 02 23:47:12 IST 2019</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Rajs-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1021:c5ad:d57d:2cbd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: f65cbc9fce764071c5182865f51ee276
+*** Element info: {Using=xpath, value=//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)
+	at com.mmt.pages.SearchPage.isAt(SearchPage.java:110)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:44)
+	at com.mmt.tests.SearchPageTests.printFlightCounts(SearchPageTests.java:24)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MakeMyTripChallenge2</h2><h3 id="m3">com.mmt.tests.SearchPageTestsRandom#verifyTotalAmount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>singlestop</td><td>Delhi</td><td>Bangalore</td><td>Thu Apr 25 23:47:42 IST 2019</td><td>Thu May 02 23:47:42 IST 2019</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Rajs-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1021:c5ad:d57d:2cbd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53747}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 0ef6ee5fc4ba230d42e9379e054e6809
+*** Element info: {Using=xpath, value=//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)
+	at com.mmt.pages.SearchPage.isAt(SearchPage.java:110)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:44)
+	at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:22)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.mmt.tests.SearchPageTestsRandom#verifyTotalAmount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>nonstop</td><td>Delhi</td><td>Bangalore</td><td>Thu Apr 25 23:47:42 IST 2019</td><td>Thu May 02 23:47:42 IST 2019</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Rajs-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1021:c5ad:d57d:2cbd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53678}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2ffdb41a0e5b9e2816d4f0b154774920
+*** Element info: {Using=xpath, value=//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)
+	at com.mmt.pages.SearchPage.isAt(SearchPage.java:110)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:44)
+	at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:22)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.mmt.tests.SearchPageTestsRandom#verifyTotalAmount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td></td><td>Delhi</td><td>Bangalore</td><td>Thu Apr 25 23:49:09 IST 2019</td><td>Thu May 02 23:49:09 IST 2019</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Rajs-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1021:c5ad:d57d:2cbd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /var/folders/v6/4w89hdzx3x1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53611}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: fa3f3e9b91a654fccafb7eadeca5e715
+*** Element info: {Using=xpath, value=//div[@id=&apos;ow_domrt-jrny&apos;] | //div[@class=&apos;col-xs-6 left_pannel&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)
+	at com.mmt.pages.SearchPage.isAt(SearchPage.java:110)
+	at com.mmt.base.ActionsClass.performSearch(ActionsClass.java:44)
+	at com.mmt.tests.SearchPageTestsRandom.verifyTotalAmount(SearchPageTestsRandom.java:22)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
