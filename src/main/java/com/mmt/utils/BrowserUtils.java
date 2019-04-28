@@ -1,13 +1,19 @@
 package com.mmt.utils;
 
 import com.mmt.base.TestBase;
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+import java.io.IOException;
 
 public class BrowserUtils extends TestBase {
     private static final Logger logger4j= LogManager.getLogger(OtherUtils.padLeft("[" + BrowserUtils.class + "]", 45) );
@@ -73,5 +79,21 @@ public class BrowserUtils extends TestBase {
         WebDriverWait wait = new WebDriverWait(driver, Long.parseLong(props.getProperty("DEFAULT_EXPLICITWAIT_TIME")));
         wait.until(ExpectedConditions.elementToBeClickable(element));
         ((JavascriptExecutor)driver).executeScript("arguments[0].click();", element);
+    }
+
+    public static void getScreenshot(String ssName)
+    {
+        // Take screenshot and store as a file format
+        File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        try {
+            // now copy the  screenshot to desired location using copyFile method
+
+            FileUtils.copyFile(src, new File(System.getProperty("user.dir")+File.separator+"Screenshots"+File.separator+ssName+System.currentTimeMillis()+".png"));
+        }
+
+        catch (IOException e)
+        {
+            System.out.println(e.getMessage());
+        }
     }
 }

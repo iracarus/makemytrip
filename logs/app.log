@@ -9812,3 +9812,124 @@
 2019-04-25 23:49:42,912 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
 2019-04-25 23:50:11,493 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
 2019-04-26 00:22:59,899 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-27 16:32:40,444 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-27 16:33:22,277 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-27 16:33:29,573 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-27 16:34:01,387 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-27 16:35:01,932 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-28 15:06:24,144 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-28 15:07:24,911 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-28 15:15:06,381 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-28 15:15:43,400 INFO  .m.t.SearchPageTests] [main] Without Filter - departure flights options : 74
+2019-04-28 15:15:43,463 INFO  .m.t.SearchPageTests] [main] Without Filter - return flights options : 72
+2019-04-28 15:16:18,086 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - departure flights options : 33
+2019-04-28 15:16:18,116 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - return flights options : 32
+2019-04-28 15:16:40,505 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - departure flights options : 35
+2019-04-28 15:16:40,530 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - return flights options : 31
+2019-04-28 15:19:21,197 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-28 15:20:04,423 INFO  .m.t.SearchPageTests] [main] Without Filter - departure flights options : 74
+2019-04-28 15:20:04,467 INFO  .m.t.SearchPageTests] [main] Without Filter - return flights options : 72
+2019-04-28 15:20:11,303 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - departure flights options : 33
+2019-04-28 15:20:11,321 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - return flights options : 32
+2019-04-28 15:20:13,522 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - departure flights options : 33
+2019-04-28 15:20:13,542 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - return flights options : 32
+2019-04-28 15:20:13,542 DEBUG  .m.t.SearchPageTests] [main] Test Ending ------- printFlightsCount -------
+2019-04-28 15:21:17,946 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-28 15:21:18,056 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-28 15:21:18,057 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-28 15:21:22,963 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-28 15:21:45,229 INFO  .m.t.HomePageTests] [main] Succefully searched for the flight.
+2019-04-28 15:21:45,230 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- searchFlights -------
+2019-04-28 15:21:49,345 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-28 15:22:26,918 INFO  .m.t.SearchPageTests] [main] Without Filter - departure flights options : 74
+2019-04-28 15:22:26,967 INFO  .m.t.SearchPageTests] [main] Without Filter - return flights options : 72
+2019-04-28 15:22:33,729 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - departure flights options : 33
+2019-04-28 15:22:33,764 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - return flights options : 32
+2019-04-28 15:22:36,011 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - departure flights options : 33
+2019-04-28 15:22:36,042 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - return flights options : 32
+2019-04-28 15:22:36,043 DEBUG  .m.t.SearchPageTests] [main] Test Ending ------- printFlightsCount -------
+2019-04-28 15:22:40,306 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:23:02,559 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:23:21,112 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15635, Actual : 15635
+2019-04-28 15:23:26,208 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
+2019-04-28 15:23:35,504 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:23:57,752 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:24:16,371 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15635, Actual : 15635
+2019-04-28 15:24:21,580 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
+2019-04-28 15:24:31,566 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:24:53,804 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:25:12,434 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15635, Actual : 15635
+2019-04-28 15:25:17,599 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
+2019-04-28 15:25:27,534 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:25:50,340 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:26:08,986 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15635, Actual : 15635
+2019-04-28 15:26:14,112 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
+2019-04-28 15:26:17,969 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:26:21,868 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:27:36,365 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-28 15:28:12,121 INFO  .m.t.SearchPageTests] [main] Without Filter - departure flights options : 74
+2019-04-28 15:28:12,154 INFO  .m.t.SearchPageTests] [main] Without Filter - return flights options : 72
+2019-04-28 15:28:18,859 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - departure flights options : 33
+2019-04-28 15:28:18,880 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - return flights options : 32
+2019-04-28 15:28:21,071 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - departure flights options : 33
+2019-04-28 15:28:21,089 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - return flights options : 32
+2019-04-28 15:28:21,089 DEBUG  .m.t.SearchPageTests] [main] Test Ending ------- printFlightsCount -------
+2019-04-28 15:28:50,854 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-04-28 15:28:50,876 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-04-28 15:28:50,876 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-04-28 15:28:54,738 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- searchFlights -------
+2019-04-28 15:29:15,873 INFO  .m.t.HomePageTests] [main] Succefully searched for the flight.
+2019-04-28 15:29:15,874 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- searchFlights -------
+2019-04-28 15:29:20,003 DEBUG  .m.t.SearchPageTests] [main] Test Starting ------- printFlightsCount -------
+2019-04-28 15:29:57,412 INFO  .m.t.SearchPageTests] [main] Without Filter - departure flights options : 74
+2019-04-28 15:29:57,442 INFO  .m.t.SearchPageTests] [main] Without Filter - return flights options : 72
+2019-04-28 15:30:04,197 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - departure flights options : 33
+2019-04-28 15:30:04,217 INFO  .m.t.SearchPageTests] [main] Non Stop Filter - return flights options : 32
+2019-04-28 15:30:06,405 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - departure flights options : 33
+2019-04-28 15:30:06,421 INFO  .m.t.SearchPageTests] [main] 1 Stop Filter - return flights options : 32
+2019-04-28 15:30:06,421 DEBUG  .m.t.SearchPageTests] [main] Test Ending ------- printFlightsCount -------
+2019-04-28 15:30:10,758 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:30:32,227 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:30:50,928 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15635, Actual : 15635
+2019-04-28 15:30:56,080 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
+2019-04-28 15:31:13,902 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:31:57,780 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:32:16,271 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15635, Actual : 15635
+2019-04-28 15:32:21,266 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
+2019-04-28 15:32:30,519 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:32:53,835 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:33:12,432 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15635, Actual : 15635
+2019-04-28 15:33:17,546 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
+2019-04-28 15:33:26,828 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:33:47,615 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:34:06,289 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15635, Actual : 15635
+2019-04-28 15:34:11,910 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
+2019-04-28 15:34:21,837 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:34:42,684 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : 'nonstop'
+2019-04-28 15:34:53,098 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : nonstop, Expected : 15635, Actual : 15635
+2019-04-28 15:34:58,023 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : nonstop, Expected : 16676, Actual : 16676
+2019-04-28 15:35:06,848 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:35:27,241 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : 'singlestop'
+2019-04-28 15:35:37,630 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : singlestop, Expected : 16227, Actual : 16227
+2019-04-28 15:50:24,439 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:50:45,678 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:51:04,300 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15423, Actual : 15423
+2019-04-28 15:51:09,485 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16439, Actual : 16439
+2019-04-28 15:51:15,081 INFO  .m.t.SearchPageTestsRandom] [main] Result 3, Stop Type : , Expected : 16676, Actual : 16676
+2019-04-28 15:51:25,115 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:52:17,627 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:52:37,578 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:52:59,729 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15334, Actual : 15334
+2019-04-28 15:53:06,893 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16439, Actual : 16439
+2019-04-28 15:53:18,443 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:54:10,185 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 15:54:30,452 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 15:54:53,721 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15334, Actual : 15334
+2019-04-28 15:55:03,153 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16439, Actual : 16439
+2019-04-28 15:55:16,507 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 16:02:27,927 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 16:02:47,636 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : ''
+2019-04-28 16:03:10,920 INFO  .m.t.SearchPageTestsRandom] [main] Result 1, Stop Type : , Expected : 15546, Actual : 15546
+2019-04-28 16:03:20,523 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
+2019-04-28 16:03:36,012 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
+2019-04-28 16:03:56,520 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : 'nonstop'

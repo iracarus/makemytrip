@@ -183,6 +183,8 @@ public class HomePage extends TestBase {
      * Click the search button after filling in the flight details
      */
     public void clickSearchButton() {
+        driver.manage().deleteAllCookies();
         BrowserUtils.jsClick(searchButton);
+        driver.manage().deleteAllCookies();
     }
 }

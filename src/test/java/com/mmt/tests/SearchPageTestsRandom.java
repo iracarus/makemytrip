@@ -20,7 +20,6 @@ public class SearchPageTestsRandom extends TestBase {
     public void verifyTotalAmount(String stopType, String departureCity, String arrivalCity, Date departureDate, Date returnDate) throws InterruptedException {
         logger4j.debug("Test Starting ------- verifyTotalAmount -------");
         actionsClass.performSearch("Flights", departureCity, arrivalCity, departureDate, returnDate);
-        searchPage.resetStopsFilter();
         logger4j.info("Test the total amount for Stops Filter Selected as : '" + stopType + "'");
         switch (stopType)
         {
@@ -38,11 +37,13 @@ public class SearchPageTestsRandom extends TestBase {
         {
             BrowserUtils.ScrollDown();
             searchPage.selectDepartureFlight(i);
+            Thread.sleep(10000);
             searchPage.selectReturnFlight(i);
+            Thread.sleep(10000);
 
             int expTotalCost = searchPage.getDepartureFlightCost() + searchPage.getReturnFlightCost();
             int actualTotalCost = searchPage.getTotalCost();
-
+            BrowserUtils.getScreenshot(stopType);
             Assert.assertEquals(actualTotalCost, expTotalCost);
             logger4j.info("Result "+i+", Stop Type : "+ stopType +", Expected : " + expTotalCost + ", Actual : " + actualTotalCost);
         }

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -78,19 +79,18 @@ public class TestBase {
         if(props.getProperty("browser").equalsIgnoreCase("chrome"))
         {
             options.addArguments("--disable-notifications");
+            options.addArguments("--incognito");
+
+            //DesiredCapabilities capabs = DesiredCapabilities.chrome();
+            //capabs.setCapability(ChromeOptions.CAPABILITY, options);
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + File.separator + "BrowserDrivers" +File.separator+osPart+ File.separator + "chromedriver" + exePart);
-        }
-        else
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + File.separator + "BrowserDrivers" +File.separator+osPart+ File.separator + "geckodriver" + exePart);
 
-        String browserName = props.getProperty("browser");
 
-        if(browserName.equalsIgnoreCase("chrome"))
-        {
             driver = new ChromeDriver(options);
         }
-        else if(browserName.equalsIgnoreCase("firefox"))
+        else
         {
+            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + File.separator + "BrowserDrivers" +File.separator+osPart+ File.separator + "geckodriver" + exePart);
             driver = new FirefoxDriver();
         }
 

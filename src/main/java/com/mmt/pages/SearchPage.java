@@ -158,6 +158,7 @@ public class SearchPage extends TestBase {
                     BrowserUtils.scrollToElement(returnFlightOptions.get(i-1));
                 if(versionCheck.size() > 0)
                 {
+                    
                     BrowserUtils.jsClick(returnFlightOptions.get(i));
                 }
                 else
