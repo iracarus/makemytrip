@@ -9933,3 +9933,12 @@
 2019-04-28 16:03:20,523 INFO  .m.t.SearchPageTestsRandom] [main] Result 2, Stop Type : , Expected : 16482, Actual : 16482
 2019-04-28 16:03:36,012 DEBUG  .m.t.SearchPageTestsRandom] [main] Test Starting ------- verifyTotalAmount -------
 2019-04-28 16:03:56,520 INFO  .m.t.SearchPageTestsRandom] [main] Test the total amount for Stops Filter Selected as : 'nonstop'
+2019-05-11 21:00:29,263 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-05-11 21:00:29,544 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-05-11 21:00:29,545 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-05-11 21:01:26,521 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-05-11 21:01:26,559 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-05-11 21:01:26,559 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------
+2019-05-11 21:04:13,715 DEBUG  .m.t.HomePageTests] [main] Test Starting ------- verifyTitle -------
+2019-05-11 21:04:13,906 INFO  .m.t.HomePageTests] [main] Title of the Home Page is : MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights &amp; Holiday
+2019-05-11 21:04:13,907 DEBUG  .m.t.HomePageTests] [main] Test Ending ------- verifyTitle -------

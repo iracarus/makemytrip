@@ -2,6 +2,7 @@ package com.mmt.base;
 
 import com.mmt.pages.SearchPage;
 import com.mmt.utils.DateUtils;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -27,8 +28,6 @@ public class TestBase {
 
     public  SearchPage searchPage;
     public ActionsClass actionsClass;
-
-    private static String OS = System.getProperty("os.name").toLowerCase();
 
     public TestBase() {
         FileInputStream inputFile;
@@ -64,17 +63,6 @@ public class TestBase {
     {
         ChromeOptions options = new ChromeOptions();
 
-        String osPart, exePart;
-        if(OS.contains("mac")) {
-            osPart = "MAC";
-            exePart = "";
-        }
-        else
-        {
-            osPart = "WIN";
-            exePart = ".exe";
-        }
-
 
         if(props.getProperty("browser").equalsIgnoreCase("chrome"))
         {
@@ -83,14 +71,13 @@ public class TestBase {
 
             //DesiredCapabilities capabs = DesiredCapabilities.chrome();
             //capabs.setCapability(ChromeOptions.CAPABILITY, options);
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + File.separator + "BrowserDrivers" +File.separator+osPart+ File.separator + "chromedriver" + exePart);
 
-
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(options);
         }
         else
         {
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + File.separator + "BrowserDrivers" +File.separator+osPart+ File.separator + "geckodriver" + exePart);
+            WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
         }
 
